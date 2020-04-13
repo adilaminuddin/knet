@@ -394,22 +394,22 @@
   <!-- ***** COLORS ****** -->
   <section>
       <ul class="color-scheme">            
-        <li class="pink"><a href="#" data-rel="pink" class="styleswitch"></a></li>
         <li class="blue"><a href="#" data-rel="blue" class="styleswitch"></a></li>
+        <li class="pink"><a href="#" data-rel="pink" class="styleswitch"></a></li>
         <li class="green"><a href="#" data-rel="green" class="styleswitch"></a></li>
       </ul> 
   </section>
   <!-- ***** TRANSLATION ****** -->
   <section id="drop-lng" class="btn-group btn-group-toggle toplang" data-toggle="buttons">
-    <label data-lng="en-US" class="btn btn-secondary mb-2">
-      <input type="radio" name="options" id="option1" checked> EN
+    <label data-lng="Id-ID" class="btn btn-secondary mb-2">
+      <input type="radio" name="options" id="option1" checked> ID
     </label>
-    <label data-lng="pt-PT" class="btn btn-secondary">
-      <input type="radio" name="options" id="option2"> PT
+    <label data-lng="en-US" class="btn btn-secondary">
+      <input type="radio" name="options" id="option2" > EN
     </label>
   </section>
   <!-- Javascript -->
-  <script defer src="js/scripts.min.js"></script>
+  <script defer src="{{asset('js/scripts.js')}}"></script>
   <script>
   $("#nav-toggle").click(function(){
   $(".menu-wrap.mobile, .menu-toggle").toggleClass("active");

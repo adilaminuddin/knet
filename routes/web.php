@@ -3,7 +3,7 @@
 // Route::get('/', function () {
 //     return view('welcome');
 // });
-Route::get('/', 'PublikController@index');
+Route::get('/', 'FrontController@index');
 
 Auth::routes();
 
