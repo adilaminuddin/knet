@@ -99,8 +99,8 @@
         </div>
       </div>
     </footer>
-    <script src="js/scripts.min.js"></script>
-    <script src="js/gdpr-cookie.js"></script>
+    <script src="{{asset('js/scripts.min.js')}}"></script>
+    <script src="{{asset('js/gdpr-cookie.js')}}"></script>
     <script>
     $.gdprcookie.init({});
     $(document.body)

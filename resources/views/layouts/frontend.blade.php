@@ -22,8 +22,8 @@
     <!-- Custom color styles -->
     
     <link href="{{asset('css/colors/blue.css')}}" rel="stylesheet" title="blue" media="none" onload="if(media!='all')media='all'"/>
-    <link href="{{asset('css/colors/pink.css')}}" rel="stylesheet" title="pink" media="none" onload="if(media!='all')media='all'"/>
-    <link href="{{asset('css/colors/green.css')}}" rel="stylesheet" title="green" media="none" onload="if(media!='all')media='all'"/>
+    {{-- <link href="{{asset('css/colors/pink.css')}}" rel="stylesheet" title="pink" media="none" onload="if(media!='all')media='all'"/>
+    <link href="{{asset('css/colors/green.css')}}" rel="stylesheet" title="green" media="none" onload="if(media!='all')media='all'"/> --}}
   </head>
   <body>
   <!-- ***** LOADING PAGE ****** -->
