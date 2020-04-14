@@ -38,77 +38,81 @@
               </button>
               <ul class="main-menu nav navbar-nav navbar-right">
                 <li class="menu-item menu-item-has-children">
-                  <a class="m-0 pr-1 v-stroke" href="#" data-i18n="[html]header.home"> </a>
-                  <div class="badge badge-pill bg-purple mr-4 wow animated shake delay-1s">RTL</div>
-                  <ul class="sub-menu">
-                    <li class="menu-item"><a href="index" data-i18n="[html]submenu.homedefault"> </a></li>
-                    <li class="menu-item"><a href="homevideo" data-i18n="[html]submenu.homevideo"> </a></li>
-                    <li class="menu-item"><a href="homeimage" data-i18n="[html]submenu.homeimage"> </a></li>
-                    <li class="menu-item"><a href="http://inebur.com/antler/template-rtl/" target="_blank">Antler (RTL) </a> <div class="menu badge feat bg-pink">NEW</div></li>
-                    <li class="menu-item"><a href="http://inebur.com/whmcs/?systpl=antler-rtl&language=arabic" target="_blank">WHMCS (RTL) </a> <div class="menu badge feat bg-pink">NEW</div></li>
-                  </ul>
+                  <a class="v-stroke" href="/">Home</a>
+                  {{-- <div class="badge badge-pill bg-blue mr-4 wow"></div> --}}
+                  {{-- animated shake delay-1s --}}
+                  {{-- <ul class="sub-menu">
+                    <li class="menu-item"><a href="index">Home</a></li>
+                    <li class="menu-item"><a href="homevideo">HV </a></li>
+                    <li class="menu-item"><a href="homeimage">HI </a></li>
+                    <li class="menu-item"><a href="#" target="_blank">Antler (RTL) </a> <div class="menu badge feat bg-pink">NEW</div></li>
+                    <li class="menu-item"><a href="#" target="_blank">WHMCS (RTL) </a> <div class="menu badge feat bg-pink">NEW</div></li>
+                  </ul> --}}
                 </li>
                 <li class="menu-item menu-item-has-children">
-                  <a class="m-0 pr-1 v-stroke" href="#" data-i18n="[html]header.services"> </a>
-                  <div class="badge badge-pill bg-purple mr-4">PRO</div>
+                  <a class="v-stroke" href="#">Solution</a>
+                  {{-- <div class="badge badge-pill bg-purple mr-4">PRO</div> --}}
                   <div class="sub-menu menu-large">
                     <div class="service-list">
                       <div class="service">
                         <img class="svg" src="fonts/svg/cloudfiber.svg" alt="Shared Hosting">
                         <div class="media-body">
-                          <a class="menu-item" href="hosting" data-i18n="[html]submenu.hosting"> </a>
-                          <p>Sed ut perspiciatis unde omnis iste natus</p>
+                          <a class="menu-item" href="hosting">ISP</a>
+                          <p>Layanan Provider Internet</p>
                         </div>
                       </div>
                       <div class="service">
                         <img class="svg" src="fonts/svg/reseller.svg" alt="Cloud Reseller">
                         <div class="media-body">
-                          <a class="menu-item" href="reseller" data-i18n="[html]submenu.reseller"> </a>
+                          <a class="menu-item" href="reseller">reseller </a>
                           <p>Lorem ipsum dolor sit amet, consectetur</p>
                         </div>
                       </div>
                       <div class="service">
                         <img class="svg" src="fonts/svg/dedicated.svg" alt="Dedicated Server">
                         <div class="media-body">
-                          <a class="menu-item" href="dedicated" data-i18n="[html]submenu.dedicated"> </a>
-                          <div class="menu badge feat bg-pink">FILTER</div>
+                          <a class="menu-item" href="dedicated">Data Center </a>
+                          <div class="menu badge feat bg-pink">SSD</div>
                           <p>But I must explain to you how all this</p>
                         </div>
                       </div>
                       <div class="service">
                         <img class="svg" src="fonts/svg/vps.svg" alt="Cloud VPS">
                         <div class="media-body">
-                          <a class="menu-item" href="vps" data-i18n="[html]submenu.vps"> </a>
+                          <a class="menu-item" href="vps"> Vps </a>
                           <div class="menu badge feat bg-grey">SSD</div>
-                          <p>At vero eos et accusamus et iusto odio</p>
+                          <p>Virtual Profider Server</p>
                         </div>
                       </div>
-                      <div class="service">
+                      {{-- <div class="service">
                         <img class="svg" src="fonts/svg/wordpress.svg" alt="WordPress Hosting">
                         <div class="media-body">
-                          <a class="menu-item" href="wordpress" data-i18n="[html]submenu.wordpress"> </a>
+                          <a class="menu-item" href="wordpress">WordPress </a>
                           <p>On the other hand, we denounce with</p>
                         </div>
                       </div>
                       <div class="service">
                         <img class="svg" src="fonts/svg/domains.svg" alt="Domains">
                         <div class="media-body">
-                          <a class="menu-item" href="domains" data-i18n="[html]submenu.domains"> </a>
+                          <a class="menu-item" href="domains">Domains </a>
                           <p>Lorem ipsum dolor sit amet, consectetur</p>
                         </div>
-                      </div>
+                      </div> --}}
                       <div class="service">
                         <img class="svg" src="fonts/svg/code.svg" alt="Developer Hosting">
                         <div class="media-body">
-                          <a class="menu-item" href="developer" data-i18n="[html]submenu.developer"> </a>
-                          <p>ed ut perspiciatis unde omnis iste natus</p>
+                          <a class="menu-item" href="developer">Konsulting IT</a>
+                          <p>Layanan Konsultasi Informasi Teknologi</p>
                         </div>
                       </div>
                     </div>
                   </div>
                 </li>
                 <li class="menu-item menu-item-has-children">
-                  <a class="v-stroke" href="#" data-i18n="[html]header.pages"> </a>
+                  <a class="v-stroke" href="/portofolio">Portofolio</a>
+                </li>
+                {{-- <li class="menu-item menu-item-has-children">
+                  <a class="v-stroke" href="#"> Header Page </a>
                   <div class="sub-menu megamenu-list">
                     <div class="container">
                       <div class="row">
@@ -118,16 +122,16 @@
                               <div class="media-body">
                                 <div class="top-head">
                                   <img class="svg" src="fonts/svg/favorite.svg" alt="Services">
-                                  <div class="menu-item" data-i18n="[html]submenu.services"> </div> 
+                                  <div class="menu-item">Services </div> 
                                 </div><hr>
                                 <ul class="sub-menu">
-                                  <li class="menu-item"><a href="emailsecurity" data-i18n="[html]submenu.emailsecurity"> </a></li>
-                                  <li class="menu-item"><a href="ssl" data-i18n="[html]submenu.ssl"> </a></li>
-                                  <li class="menu-item"><a href="email" data-i18n="[html]submenu.email"> </a></li>
-                                  <li class="menu-item"><a href="magento" data-i18n="[html]submenu.magento"> </a></li>
-                                  <li class="menu-item"><a href="gsuite" data-i18n="[html]submenu.gsuite"> </a></li>
-                                  <li class="menu-item"><a href="iptv" data-i18n="[html]submenu.iptv"> </a></li>
-                                  <li class="menu-item"><a href="gaming" data-i18n="[html]submenu.gaming"> </a> <div class="badge inside bg-pink">NEW</div></li>
+                                  <li class="menu-item"><a href="emailsecurity">Email Security </a></li>
+                                  <li class="menu-item"><a href="ssl">SSL</a></li>
+                                  <li class="menu-item"><a href="email" >Email </a></li>
+                                  <li class="menu-item"><a href="magento" >Magento </a></li>
+                                  <li class="menu-item"><a href="gsuite" >G-Suite</a></li>
+                                  <li class="menu-item"><a href="iptv">IPTV </a></li>
+                                  <li class="menu-item"><a href="gaming">Gaming </a> <div class="badge inside bg-pink">NEW</div></li>
                                 </ul>     
                               </div>
                             </div>
@@ -135,16 +139,16 @@
                               <div class="media-body">
                                 <div class="top-head">
                                   <img class="svg" src="fonts/svg/infrastructure.svg" alt="Infrastructure">
-                                  <div class="menu-item" data-i18n="[html]submenu.infrastructure"> </div>
+                                  <div class="menu-item">Infrastruktur </div>
                                 </div><hr>
                                 <ul class="sub-menu">
-                                  <li class="menu-item"><a href="ddos" data-i18n="[html]submenu.ddos"> </a></li>
-                                  <li class="menu-item"><a href="datacenter" data-i18n="[html]submenu.datacenter"> </a> <div class="badge inside bg-grey">TOP</div></li>
-                                  <li class="menu-item"><a href="about" data-i18n="[html]submenu.about"> </a></li>
-                                  <li class="menu-item"><a href="database" data-i18n="[html]submenu.database"> </a></li>
-                                  <li class="menu-item"><a href="elements" data-i18n="[html]submenu.elements"> </a></li>
-                                  <li class="menu-item"><a href="voip" data-i18n="[html]submenu.voip"> </a></li>
-                                  <li class="menu-item"><a href="voice" data-i18n="[html]submenu.voice"> </a> <div class="badge inside bg-pink">NEW</div></li>
+                                  <li class="menu-item"><a href="ddos">ddos </a></li>
+                                  <li class="menu-item"><a href="datacenter">Datacenter </a> <div class="badge inside bg-grey">TOP</div></li>
+                                  <li class="menu-item"><a href="about">about</a></li>
+                                  <li class="menu-item"><a href="database"> database</a></li>
+                                  <li class="menu-item"><a href="elements">Element </a></li>
+                                  <li class="menu-item"><a href="voip">voip</a></li>
+                                  <li class="menu-item"><a href="voice"> Voice</a> <div class="badge inside bg-pink">NEW</div></li>
                                 </ul> 
                               </div>
                             </div>
@@ -152,7 +156,7 @@
                               <div class="media-body">
                                 <div class="top-head">
                                   <img class="svg" src="fonts/svg/global.svg" alt="Global">
-                                  <div class="menu-item" data-i18n="[html]submenu.others"> </div>
+                                  <div class="menu-item"> Other</div>
                                 </div><hr>
                                 <ul class="sub-menu">
                                   <li class="menu-item"><a href="payments" data-i18n="[html]submenu.payments"> </a> <div class="badge inside bg-pink">NEW</div></li>
@@ -180,26 +184,26 @@
                       </div>
                     </div>
                   </div>
-                </li>
+                </li> --}}
                 <li class="menu-item menu-item-has-children">
                   <a class="v-stroke" href="#" data-i18n="[html]header.features"></a>
                   <ul class="sub-menu">
-                    <li class="menu-item"><a href="http://inebur.com/whmcs/?systpl=antler" target="_blank" data-i18n="[html]submenu.whmcs"> </a> <div class="menu badge feat bg-pink">HOT</div></li>
-                    <li class="menu-item"><a href="http://inebur.com/whmcs/cart.php?gid=2" target="_blank" data-i18n="[html]submenu.orderform"> </a><div class="menu badge feat bg-grey">TOP</div></li>
-                    <li class="menu-item"><a href="http://inebur.com/antler/email/" target="_blank" data-i18n="[html]submenu.whmcsemail"> </a><div class="menu badge feat bg-grey">TOP</div></li>
-                    <li class="menu-item"><a href="http://inebur.com/antler/newsletter/" target="_blank" data-i18n="[html]submenu.whmcsnewsletter"> </a><div class="menu badge feat bg-grey">TOP</div></li>
-                    <li class="menu-item"><a href="pricing" data-i18n="[html]submenu.pricing"> </a></li>
-                    <li class="menu-item"><a href="sliders" data-i18n="[html]submenu.sliders"> </a></li>
-                    <li class="menu-item"><a href="configurator" data-i18n="[html]submenu.config"> </a> <div class="menu badge feat bg-pink">NEW</div></li>
-                    <li class="menu-item"><a href="404" data-i18n="[html]submenu.error"> </a></li>
+                    <li class="menu-item"><a href="#"> WHMCS</a> <div class="menu badge feat bg-pink">HOT</div></li>
+                    <li class="menu-item"><a href="#">Order Form </a><div class="menu badge feat bg-grey">TOP</div></li>
+                    <li class="menu-item"><a href="#">whmcsemail </a><div class="menu badge feat bg-grey">TOP</div></li>
+                    <li class="menu-item"><a href="#">whmcsnewsletter </a><div class="menu badge feat bg-grey">TOP</div></li>
+                    <li class="menu-item"><a href="pricing">Pricing </a></li>
+                    <li class="menu-item"><a href="sliders"> Slider</a></li>
+                    <li class="menu-item"><a href="configurator">Config </a> <div class="menu badge feat bg-pink">NEW</div></li>
+                    {{-- <li class="menu-item"><a href="404" data-i18n="[html]submenu.error"> </a></li>
                     <li class="menu-item"><a href="login" data-i18n="[html]submenu.register"> </a></li>
                     <li class="menu-item"><a href="login" data-i18n="[html]header.login"> </a></li>
                     <li class="menu-item"><a href="elements" data-i18n="[html]submenu.elements"> </a></li>
-                    <li class="menu-item"><a href="sections" data-i18n="[html]submenu.sections"> </a></li>
+                    <li class="menu-item"><a href="sections" data-i18n="[html]submenu.sections"> </a></li> --}}
                   </ul>
                 </li>
                 <li class="menu-item menu-item-has-children menu-last">
-                  <a class="v-stroke" href="#" data-i18n="[html]header.support"></a>
+                  <a class="v-stroke" href="#"> Dukungan & Layanan</a>
                   <div class="sub-menu megamenu">
                     <div class="container">
                       <div class="row">
@@ -210,7 +214,7 @@
                                 <img class="svg" src="fonts/svg/bookmark.svg" alt="Knowledgebase">
                               </div>
                               <div class="media-body">
-                                <a class="menu-item" href="knowledgebase-list" data-i18n="[html]submenu.knowlist"> </a>
+                                <a class="menu-item" href="knowledgebase-list">Knw List </a>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing</p>
                               </div>
                             </div>
@@ -219,7 +223,7 @@
                                 <img class="svg" src="fonts/svg/book.svg" alt="Knowledgebase">
                               </div>
                               <div class="media-body">
-                                <a class="menu-item" href="knowledgebase-article" data-i18n="[html]submenu.knowarticle"> </a>
+                                <a class="menu-item" href="knowledgebase-article">Knw Article </a>
                                 <p>Eaque ipsa quae ab illo inventore veritatis et quasi</p>
                               </div>
                             </div>
@@ -228,7 +232,7 @@
                                 <img class="svg" src="fonts/svg/emailopen.svg" alt="Knowledgebase">
                               </div>
                               <div class="media-body">
-                                <a class="menu-item" href="contact" data-i18n="[html]submenu.contact"> </a>
+                                <a class="menu-item" href="contact">Contact </a>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing</p>
                               </div>
                             </div>
@@ -237,7 +241,7 @@
                                 <img class="svg" src="fonts/svg/compare.svg" alt="Knowledgebase">
                               </div>
                               <div class="media-body">
-                                <a class="menu-item" href="legal" data-i18n="[html]submenu.legal"> </a>
+                                <a class="menu-item" href="legal">Legalitas </a>
                                 <div class="badge inside bg-grey ml-1">NEW</div>
                                 <p>Eaque ipsa quae ab illo inventore veritatis et quasi</p>
                               </div>
@@ -248,7 +252,7 @@
                               </div>
                               <div class="media-body">
                                 <div>
-                                  <a class="menu-item" href="blog" data-i18n="[html]submenu.blog"> </a>
+                                  <a class="menu-item" href="about">About Us </a>
                                   <div class="badge inside bg-pink ml-1">HOT</div>
                                 </div>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing</p>
@@ -259,7 +263,7 @@
                                 <img class="svg" src="fonts/svg/question.svg" alt="Knowledgebase">
                               </div>
                               <div class="media-body">
-                                <a class="menu-item" href="faq" data-i18n="[html]submenu.faq"> </a>
+                                <a class="menu-item" href="faq">FAQ </a>
                                 <p>Eaque ipsa quae ab illo inventore veritatis et quasi</p>
                               </div>
                             </div>
@@ -277,7 +281,7 @@
                   </div>
                 </li>
                 <li class="menu-item">
-                  <a class="pr-0 mr-0" href="login"> <div class="btn btn-default-yellow-fill question" data-i18n="[html]header.login"><i class="fas fa-lock pr-1"></i> </div></a>
+                  <a class="pr-0 mr-0" href="login"> <div class="btn btn-default-yellow-fill question">Login<i class="fas fa-lock pr-1"></i> </div></a>
                 </li>
               </ul>
             </div>
@@ -394,19 +398,10 @@
   <!-- ***** COLORS ****** -->
   <section>
       <ul class="color-scheme">            
-        <li class="blue"><a href="#" data-rel="blue" class="styleswitch"></a></li>
-        <li class="pink"><a href="#" data-rel="pink" class="styleswitch"></a></li>
-        <li class="green"><a href="#" data-rel="green" class="styleswitch"></a></li>
+        <li class="blue" hidden><a href="#" data-rel="blue" class="styleswitch"></a></li>
+        {{-- <li class="pink"><a href="#" data-rel="pink" class="styleswitch"></a></li>
+        <li class="green"><a href="#" data-rel="green" class="styleswitch"></a></li> --}}
       </ul> 
-  </section>
-  <!-- ***** TRANSLATION ****** -->
-  <section id="drop-lng" class="btn-group btn-group-toggle toplang" data-toggle="buttons">
-    <label data-lng="Id-ID" class="btn btn-secondary mb-2">
-      <input type="radio" name="options" id="option1" checked> ID
-    </label>
-    <label data-lng="en-US" class="btn btn-secondary">
-      <input type="radio" name="options" id="option2" > EN
-    </label>
   </section>
   <!-- Javascript -->
   <script defer src="{{asset('js/scripts.js')}}"></script>

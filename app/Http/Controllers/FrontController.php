@@ -11,4 +11,10 @@ class FrontController extends Controller
         # code...
         return view('welcome');
     }
+
+    public function legal()
+    {
+        # code...
+        return view('legal');
+    }
 }

@@ -293,7 +293,7 @@
   @endsection
 
   @section('js')
-  
+ 
   <script>
     var typed3 = new Typed('#typed3', {
     strings: ["Premium hardware.", "Large performance.", "Fully dedicated."],
@@ -303,4 +303,7 @@
     loop: true
     });
   </script>
+  <script>
+  
+</script>
   @endsection

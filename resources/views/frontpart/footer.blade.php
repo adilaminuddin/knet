@@ -71,14 +71,6 @@
           <div class="row">
             <div class="col-lg-6">
               <ul class="footer-menu">
-                <li id="drop-lng" class="btn-group btn-group-toggle" data-toggle="buttons">
-                  <label data-lng="en-US" class="btn btn-secondary">
-                    <input type="radio" name="options" id="option1" checked> EN
-                  </label>
-                  <label data-lng="pt-PT" class="btn btn-secondary">
-                    <input type="radio" name="options" id="option2"> PT
-                  </label>
-                </li>
                 <li class="menu-item by c-grey">Hybrid Design With ♥ by
                   <a href="http://inebur.com/" target="_blank">inebur</a>
                 </li>

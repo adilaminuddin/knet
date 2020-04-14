@@ -142,13 +142,13 @@ function translate() {
             $.getScript('js/lib/jquery-i18next.min.js', function() {
                 var language = localStorage.getItem('lng');
                 if (!language) {
-                    localStorage.setItem('lng', 'id-ID');
-                    language = 'id-ID';
+                    localStorage.setItem('lng', 'en-US');
+                    language = 'en-US';
                 }
                 i18next.use(i18nextXHRBackend)
                     .init({
                         lng: language,
-                        fallbackLng: 'id-ID',
+                        fallbackLng: 'en-US',
                         backend: {
                             loadPath: 'locales/{{lng}}/translations.json'
                         }
@@ -175,7 +175,7 @@ function translate() {
 /*---------------------------------*/
 function headerfooter() {
     $("#header")
-        .load("@include('frontpart.header')", function(res, status, xhr) {
+        .load("header", function(res, status, xhr) {
             $('#drop-lng [data-lng="' + localStorage.getItem('lng') + '"]')
                 .addClass('xpto active');
             $('#drop-lng label')
@@ -187,7 +187,7 @@ function headerfooter() {
                 });
         });
     $("#footer")
-        .load("@include('frontpart.footer')", function(res, status, xhr) {
+        .load("footer", function(res, status, xhr) {
             $('#drop-lng [data-lng="' + localStorage.getItem('lng') + '"]')
                 .addClass('xpto active');
             $('#drop-lng label')
