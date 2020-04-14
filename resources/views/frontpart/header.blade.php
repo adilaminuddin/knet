@@ -1,25 +1,3 @@
-<!-- ***** NEWS ***** -->
-<div class="sec-bg3 p-2 pr-3 infonews">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-6 news">
-          <h6 class="m-0">
-            <div class="badge feat bg-pink mr-2 left">news</div>
-            <small class="text-light">Gaming Servers Page Already Available. <a class="c-yellow opa-8" href="gaming">See Live Demo <i class="fas fa-arrow-circle-right"></i></a></small>
-          </h6>
-        </div>
-        <div class="col-md-6 link">
-          <li class="infonews-nav float-right">
-            <a href="blog">Blog</a>
-            <a href="contact">Support</span></a>
-            <a href="login">myAntler</a>
-            <a href="#"><b>+ (123) 1300-656-1046</b></a>
-          </li>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- ***** NAV MENU ****** -->
   <div class="menu-wrap">
     <div class="nav-menu">
       <div class="container">
@@ -52,7 +30,7 @@
                 <li class="menu-item menu-item-has-children">
                   <a class="v-stroke" href="#">Solution</a>
                   {{-- <div class="badge badge-pill bg-purple mr-4">PRO</div> --}}
-                  <div class="sub-menu menu-large">
+                  {{-- <div class="sub-menu menu-large">
                     <div class="service-list">
                       <div class="service">
                         <img class="svg" src="fonts/svg/cloudfiber.svg" alt="Shared Hosting">
@@ -84,7 +62,7 @@
                           <p>Virtual Profider Server</p>
                         </div>
                       </div>
-                      {{-- <div class="service">
+                      <div class="service">
                         <img class="svg" src="fonts/svg/wordpress.svg" alt="WordPress Hosting">
                         <div class="media-body">
                           <a class="menu-item" href="wordpress">WordPress </a>
@@ -97,7 +75,7 @@
                           <a class="menu-item" href="domains">Domains </a>
                           <p>Lorem ipsum dolor sit amet, consectetur</p>
                         </div>
-                      </div> --}}
+                      </div>
                       <div class="service">
                         <img class="svg" src="fonts/svg/code.svg" alt="Developer Hosting">
                         <div class="media-body">
@@ -106,7 +84,7 @@
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> --}}
                 </li>
                 <li class="menu-item menu-item-has-children">
                   <a class="v-stroke" href="/portofolio">Portofolio</a>
@@ -186,8 +164,8 @@
                   </div>
                 </li> --}}
                 <li class="menu-item menu-item-has-children">
-                  <a class="v-stroke" href="#" data-i18n="[html]header.features"></a>
-                  <ul class="sub-menu">
+                  <a class="v-stroke" href="/career">Career</a>
+                  {{-- <ul class="sub-menu">
                     <li class="menu-item"><a href="#"> WHMCS</a> <div class="menu badge feat bg-pink">HOT</div></li>
                     <li class="menu-item"><a href="#">Order Form </a><div class="menu badge feat bg-grey">TOP</div></li>
                     <li class="menu-item"><a href="#">whmcsemail </a><div class="menu badge feat bg-grey">TOP</div></li>
@@ -195,16 +173,16 @@
                     <li class="menu-item"><a href="pricing">Pricing </a></li>
                     <li class="menu-item"><a href="sliders"> Slider</a></li>
                     <li class="menu-item"><a href="configurator">Config </a> <div class="menu badge feat bg-pink">NEW</div></li>
-                    {{-- <li class="menu-item"><a href="404" data-i18n="[html]submenu.error"> </a></li>
+                    <li class="menu-item"><a href="404" data-i18n="[html]submenu.error"> </a></li>
                     <li class="menu-item"><a href="login" data-i18n="[html]submenu.register"> </a></li>
                     <li class="menu-item"><a href="login" data-i18n="[html]header.login"> </a></li>
                     <li class="menu-item"><a href="elements" data-i18n="[html]submenu.elements"> </a></li>
-                    <li class="menu-item"><a href="sections" data-i18n="[html]submenu.sections"> </a></li> --}}
-                  </ul>
+                    <li class="menu-item"><a href="sections" data-i18n="[html]submenu.sections"> </a></li>
+                  </ul> --}}
                 </li>
                 <li class="menu-item menu-item-has-children menu-last">
-                  <a class="v-stroke" href="#"> Dukungan & Layanan</a>
-                  <div class="sub-menu megamenu">
+                  <a class="v-stroke" href="/about"> About</a>
+                  {{-- <div class="sub-menu megamenu">
                     <div class="container">
                       <div class="row">
                         <div class="service-list col-md-9">
@@ -278,11 +256,11 @@
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> --}}
                 </li>
-                <li class="menu-item">
+                {{-- <li class="menu-item">
                   <a class="pr-0 mr-0" href="login"> <div class="btn btn-default-yellow-fill question">Login<i class="fas fa-lock pr-1"></i> </div></a>
-                </li>
+                </li> --}}
               </ul>
             </div>
           </nav>
