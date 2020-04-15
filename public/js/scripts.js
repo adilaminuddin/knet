@@ -175,7 +175,7 @@ function translate() {
 /*---------------------------------*/
 function headerfooter() {
     $("#header")
-        .load("header", function(res, status, xhr) {
+        .load("hdrx", function(res, status, xhr) {
             $('#drop-lng [data-lng="' + localStorage.getItem('lng') + '"]')
                 .addClass('xpto active');
             $('#drop-lng label')
@@ -187,7 +187,7 @@ function headerfooter() {
                 });
         });
     $("#footer")
-        .load("footer", function(res, status, xhr) {
+        .load("ftrx", function(res, status, xhr) {
             $('#drop-lng [data-lng="' + localStorage.getItem('lng') + '"]')
                 .addClass('xpto active');
             $('#drop-lng label')

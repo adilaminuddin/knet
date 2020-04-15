@@ -12,6 +12,17 @@ class FrontController extends Controller
         return view('welcome');
     }
 
+    public function hdr()
+    {
+        # code...
+        return view('frontpart.header');
+    }
+    public function ftr()
+    {
+        # code...
+        return view('frontpart.footer');
+    }
+
     public function legal()
     {
         # code...

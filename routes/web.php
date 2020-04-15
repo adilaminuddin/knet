@@ -3,12 +3,8 @@
 // Route::get('/', function () {
 //     return view('welcome');
 // });
-Route::get('header', function () {
-    return view('frontpart.header');
-});
-Route::get('footer', function () {
-    return view('frontpart.footer');
-});
+Route::get('hdrx','FrontController@hdr');
+Route::get('ftrx','FrontController@ftr');
 
 Route::get('/', 'FrontController@index');
 Route::get('/about','AboutController@index');

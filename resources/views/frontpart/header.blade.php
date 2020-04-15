@@ -30,7 +30,7 @@
                 <li class="menu-item menu-item-has-children">
                   <a class="v-stroke" href="#">Solution</a>
                   {{-- <div class="badge badge-pill bg-purple mr-4">PRO</div> --}}
-                  {{-- <div class="sub-menu menu-large">
+                  <div class="sub-menu menu-large">
                     <div class="service-list">
                       <div class="service">
                         <img class="svg" src="fonts/svg/cloudfiber.svg" alt="Shared Hosting">
@@ -55,28 +55,6 @@
                         </div>
                       </div>
                       <div class="service">
-                        <img class="svg" src="fonts/svg/vps.svg" alt="Cloud VPS">
-                        <div class="media-body">
-                          <a class="menu-item" href="vps"> Vps </a>
-                          <div class="menu badge feat bg-grey">SSD</div>
-                          <p>Virtual Profider Server</p>
-                        </div>
-                      </div>
-                      <div class="service">
-                        <img class="svg" src="fonts/svg/wordpress.svg" alt="WordPress Hosting">
-                        <div class="media-body">
-                          <a class="menu-item" href="wordpress">WordPress </a>
-                          <p>On the other hand, we denounce with</p>
-                        </div>
-                      </div>
-                      <div class="service">
-                        <img class="svg" src="fonts/svg/domains.svg" alt="Domains">
-                        <div class="media-body">
-                          <a class="menu-item" href="domains">Domains </a>
-                          <p>Lorem ipsum dolor sit amet, consectetur</p>
-                        </div>
-                      </div>
-                      <div class="service">
                         <img class="svg" src="fonts/svg/code.svg" alt="Developer Hosting">
                         <div class="media-body">
                           <a class="menu-item" href="developer">Konsulting IT</a>
@@ -84,7 +62,7 @@
                         </div>
                       </div>
                     </div>
-                  </div> --}}
+                  </div>
                 </li>
                 <li class="menu-item menu-item-has-children">
                   <a class="v-stroke" href="/portofolio">Portofolio</a>
@@ -165,6 +143,23 @@
                 </li> --}}
                 <li class="menu-item menu-item-has-children">
                   <a class="v-stroke" href="/career">Career</a>
+                  {{-- <ul class="sub-menu">
+                    <li class="menu-item"><a href="#"> WHMCS</a> <div class="menu badge feat bg-pink">HOT</div></li>
+                    <li class="menu-item"><a href="#">Order Form </a><div class="menu badge feat bg-grey">TOP</div></li>
+                    <li class="menu-item"><a href="#">whmcsemail </a><div class="menu badge feat bg-grey">TOP</div></li>
+                    <li class="menu-item"><a href="#">whmcsnewsletter </a><div class="menu badge feat bg-grey">TOP</div></li>
+                    <li class="menu-item"><a href="pricing">Pricing </a></li>
+                    <li class="menu-item"><a href="sliders"> Slider</a></li>
+                    <li class="menu-item"><a href="configurator">Config </a> <div class="menu badge feat bg-pink">NEW</div></li>
+                    <li class="menu-item"><a href="404" data-i18n="[html]submenu.error"> </a></li>
+                    <li class="menu-item"><a href="login" data-i18n="[html]submenu.register"> </a></li>
+                    <li class="menu-item"><a href="login" data-i18n="[html]header.login"> </a></li>
+                    <li class="menu-item"><a href="elements" data-i18n="[html]submenu.elements"> </a></li>
+                    <li class="menu-item"><a href="sections" data-i18n="[html]submenu.sections"> </a></li>
+                  </ul> --}}
+                </li>
+                <li class="menu-item menu-item-has-children">
+                  <a class="v-stroke" href="/artikel">Artikel</a>
                   {{-- <ul class="sub-menu">
                     <li class="menu-item"><a href="#"> WHMCS</a> <div class="menu badge feat bg-pink">HOT</div></li>
                     <li class="menu-item"><a href="#">Order Form </a><div class="menu badge feat bg-grey">TOP</div></li>
