@@ -18,4 +18,8 @@ Route::get('/artikel','ArticleController@index');
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/home', 'DashboardController@index')->name('home');
+
+//admin
+// Route::resource('admin', 'DashboardController');
+// Route::get('admin/dashboard', 'DashboardController@index')->name('dashboard.index');
