@@ -18,7 +18,14 @@ Route::get('/artikel','ArticleController@index');
 
 Auth::routes();
 
-Route::get('/home', 'DashboardController@index')->name('home');
+// rute khusus admin login logout 
+Route::get('admin/login', 'Auth\AdminLoginController@showLogin')->name('admin.login');
+Route::post('admin/login', 'Auth\AdminLoginController@login');
+Route::get('admin/logout', 'Auth\AdminLoginController@logout')->name('admin.logout');
+
+Route::group(array('prefix'=>'admin','namespace'=>'admin'), function(){
+    Route::get('dashboard', 'DashboardController@index')->name('dashboard.index');
+});
 
 //admin
 // Route::resource('admin', 'DashboardController');
