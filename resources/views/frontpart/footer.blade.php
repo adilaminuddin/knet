@@ -1,112 +1,94 @@
-    <!--
-    *******************
-    FOOTER
-    *******************
-    -->
-    <link href="css/gdpr-cookie.css" rel="stylesheet">
-    <footer class="footer">
-      <img class="logo-bg logo-footer" src="img/symbol.svg" alt="logo">
-      <div class="container">
-        <div class="footer-top">
-          <div class="row">
-            <div class="col-sm-6 col-md-3">
-              <div class="heading">Hosting</div>
-              <ul class="footer-menu">
-                <li class="menu-item"><a href="hosting">Shared Hosting</a></li>
-                <li class="menu-item"><a href="dedicated">Dedicated Server</a></li>
-                <li class="menu-item"><a href="vps">Cloud Virtual (VPS)</a></li>
-                <li class="menu-item"><a href="domains">Domain Names</a></li>
-              </ul>
-            </div>
-            <div class="col-sm-6 col-md-3">
-              <div class="heading">Support</div>
-              <ul class="footer-menu">
-                <li class="menu-item"><a href="login">myAntler</a></li>
-                <li class="menu-item"><a href="knowledgebase-list">Knowledge Base</a></li>
-                <li class="menu-item"><a href="contact">Contact Us</a></li>
-                <li class="menu-item"><a href="faq">FAQ</a></li>
-              </ul>
-            </div>
-            <div class="col-sm-6 col-md-3">
-              <div class="heading">Company</div>
-              <ul class="footer-menu">
-                <li class="menu-item"><a href="about">About Us</a> </li>
-                <li class="menu-item"><a href="elements">Features</a></li>
-                <li class="menu-item"><a href="blog">Blog</a></li>
-                <li class="menu-item"><a href="legal">Legal</a></li>
-              </ul>
-            </div>
-            <div class="col-sm-6 col-md-3">
-              <a><img class="svg logo-footer" src="img/logo.svg" alt="logo"></a>
-              <div class="copyrigh">©2020 Antler - All rights reserved</div>
-              <div class="soc-icons">
-                <a href=""><i class="fab fa-facebook-f"></i></a>
-                <a href=""><i class="fab fa-google-plus-g"></i></a>
-                <a href=""><i class="fab fa-twitter"></i></a>
-                <a href=""><i class="fab fa-linkedin-in"></i></a>
+
+    <!--====================  footer area ====================-->
+    <div class="footer-area-wrapper reveal-footer bg-gray">
+      <div class="footer-area section-space--ptb_80">
+          <div class="container">
+              <div class="row footer-widget-wrapper">
+                  <div class="col-lg-4 col-md-6 col-sm-6 footer-widget">
+                      <div class="footer-widget__logo mb-30">
+                          <img src="assets/images/logo/dark-logo-160x48.png" class="img-fluid" alt="">
+                      </div>
+                      <ul class="footer-widget__list">
+                          <li>58 Howard Street #2 San Francisco, CA 941</li>
+                          <li><a href="mailto:contact@aeroland.com" class="hover-style-link">contact@aeroland.com</a></li>
+                          <li><a href="tel:123344556" class="hover-style-link text-black font-weight--bold">(+68)1221 09876</a></li>
+                          <li><a href="https://hasthemes.com/" class="hover-style-link text-color-primary">www.mitech.xperts.com</a></li>
+                      </ul>
+                  </div>
+                  <div class="col-lg-2 col-md-4 col-sm-6 footer-widget">
+                      <h6 class="footer-widget__title mb-20">IT Services</h6>
+                      <ul class="footer-widget__list">
+                          <li><a href="#" class="hover-style-link">Managed IT</a></li>
+                          <li><a href="#" class="hover-style-link">IT Support</a></li>
+                          <li><a href="#" class="hover-style-link">IT Consultancy</a></li>
+                          <li><a href="#" class="hover-style-link">Cloud Computing</a></li>
+                          <li><a href="#" class="hover-style-link">Cyber Security</a></li>
+                      </ul>
+                  </div>
+                  <div class="col-lg-2 col-md-4 col-sm-6 footer-widget">
+                      <h6 class="footer-widget__title mb-20">Quick links</h6>
+                      <ul class="footer-widget__list">
+                          <li><a href="#" class="hover-style-link">Pick up locations</a></li>
+                          <li><a href="#" class="hover-style-link">Terms of Payment</a></li>
+                          <li><a href="#" class="hover-style-link">Privacy Policy</a></li>
+                          <li><a href="#" class="hover-style-link">Where to Find Us</a></li>
+                      </ul>
+                  </div>
+                  <div class="col-lg-2 col-md-4 col-sm-6 footer-widget">
+                      <h6 class="footer-widget__title mb-20">Support</h6>
+                      <ul class="footer-widget__list">
+                          <li><a href="#" class="hover-style-link">Forum Support</a></li>
+                          <li><a href="#" class="hover-style-link">Help & FAQ</a></li>
+                          <li><a href="#" class="hover-style-link">Contact Us</a></li>
+                          <li><a href="#" class="hover-style-link">Pricing and plans</a></li>
+                          <li><a href="#" class="hover-style-link">Cookies Policy</a></li>
+                      </ul>
+                  </div>
+                  <div class="col-lg-2 col-md-4 col-sm-6 footer-widget">
+                      <div class="footer-widget__title section-space--mb_50"></div>
+                      <ul class="footer-widget__list">
+                          <li><a href="#" class="image_btn"><img class="img-fluid" src="assets/images/icons/aeroland-button-google-play.jpg" alt=""></a></li>
+                          <li><a href="#" class="image_btn"><img class="img-fluid" src="assets/images/icons/aeroland-button-app-store.jpg" alt=""></a></li>
+                      </ul>
+                  </div>
               </div>
-            </div>
           </div>
-        </div>
       </div>
-      <div class="subcribe news">
-        <div class="container">
-          <div class="row">
-            <form action="#" class="w-100">
-              <div class="col-md-6 offset-md-3">
-                <div class="general-input">
-                  <input type="email" name="email" placeholder="Enter your email address" class="fill-input">
-                  <input type="submit" value="SUBSCRIBE" class="btn btn-default-yellow-fill">
-                </div>
+      <div class="footer-copyright-area section-space--pb_30">
+          <div class="container">
+              <div class="row align-items-center">
+                  <div class="col-md-6 text-center text-md-left">
+                      <span class="copyright-text">&copy; 2019 Mitech. <a href="https://hasthemes.com/">All Rights Reserved.</a></span>
+                  </div>
+                  <div class="col-md-6 text-center text-md-right">
+                      <ul class="list ht-social-networks solid-rounded-icon">
+
+                          <li class="item">
+                              <a href="https://twitter.com" target="_blank" aria-label="Twitter" class="social-link hint--bounce hint--top hint--primary">
+                                  <i class="fab fa-twitter link-icon"></i>
+                              </a>
+                          </li>
+                          <li class="item">
+                              <a href="https://facebook.com" target="_blank" aria-label="Facebook" class="social-link hint--bounce hint--top hint--primary">
+                                  <i class="fab fa-facebook-f link-icon"></i>
+                              </a>
+                          </li>
+                          <li class="item">
+                              <a href="https://instagram.com" target="_blank" aria-label="Instagram" class="social-link hint--bounce hint--top hint--primary">
+                                  <i class="fab fa-instagram link-icon"></i>
+                              </a>
+                          </li>
+                          <li class="item">
+                              <a href="https://linkedin.com" target="_blank" aria-label="Linkedin" class="social-link hint--bounce hint--top hint--primary">
+                                  <i class="fab fa-linkedin link-icon"></i>
+                              </a>
+                          </li>
+                      </ul>
+                  </div>
               </div>
-              <div class="col-md-6 offset-md-3 text-center pt-4">
-                <p>Subscribe to our newsletter to receive news and updates</p>
-              </div>
-            </form>
           </div>
-        </div>
       </div>
-      <div class="footer-bottom">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6">
-              <ul class="footer-menu">
-                <li class="menu-item by c-grey">Hybrid Design With ♥ by
-                  <a href="http://inebur.com/" target="_blank">inebur</a>
-                </li>
-              </ul>
-            </div>
-            <div class="col-lg-6">
-              <ul class="payment-list">
-                <li><p>Payments We Accept</p></li>
-                <li><i class="fab fa-cc-paypal"></i></li>
-                <li><i class="fab fa-cc-visa"></i></li>
-                <li><i class="fab fa-cc-mastercard"></i></li>
-                <li><i class="fab fa-cc-apple-pay"></i></li>
-                <li><i class="fab fa-cc-discover"></i></li>
-                <li><i class="fab fa-cc-amazon-pay"></i></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
-    <script src="{{asset('js/scripts.min.js')}}"></script>
-    <script src="{{asset('js/gdpr-cookie.js')}}"></script>
-    <script>
-    $.gdprcookie.init({});
-    $(document.body)
-    .on("gdpr:show", function() {
-    console.log("Cookie dialog is shown");
-    })
-    .on("gdpr:accept", function() {
-    var preferences = $.gdprcookie.preference();
-    console.log("Preferences saved:", preferences);
-    })
-    .on("gdpr:advanced", function() {
-    console.log("Advanced button was pressed");
-    });
-    if ($.gdprcookie.preference("marketing") === true) {
-    console.log("This should run because marketing is accepted.");
-    }
-    </script>
+  </div>
+  <!--====================  End of footer area  ====================-->
+
+

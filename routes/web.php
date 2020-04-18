@@ -3,8 +3,8 @@
 // Route::get('/', function () {
 //     return view('welcome');
 // });
-Route::get('hdrx','FrontController@hdr');
-Route::get('ftrx','FrontController@ftr');
+// Route::get('hdrx','FrontController@hdr');
+// Route::get('ftrx','FrontController@ftr');
 
 Route::get('/', 'FrontController@index');
 Route::get('/about','AboutController@index');
