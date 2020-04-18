@@ -160,19 +160,20 @@
                 </li>
                 <li class="menu-item menu-item-has-children">
                   <a class="v-stroke" href="/artikel">Artikel</a>
+                  <ul class="sub-menu">
+                  @foreach($acategories as $c)
+                    <li class="menu-item"><a href="{{ route('artikel.category',$c->slug) }}"> {{ $c->name }}</a> <div class="menu badge feat bg-pink">HOT</div></li>
+                  {{-- <li class="nav-item">
+                    <a class="nav-link waves-effect" href="{{ route('post.category',$c->slug) }}" target="_blank">{{ $c->name }}</a>
+                  </li> --}}
+                  @endforeach
+                  </ul>
                   {{-- <ul class="sub-menu">
                     <li class="menu-item"><a href="#"> WHMCS</a> <div class="menu badge feat bg-pink">HOT</div></li>
                     <li class="menu-item"><a href="#">Order Form </a><div class="menu badge feat bg-grey">TOP</div></li>
                     <li class="menu-item"><a href="#">whmcsemail </a><div class="menu badge feat bg-grey">TOP</div></li>
                     <li class="menu-item"><a href="#">whmcsnewsletter </a><div class="menu badge feat bg-grey">TOP</div></li>
                     <li class="menu-item"><a href="pricing">Pricing </a></li>
-                    <li class="menu-item"><a href="sliders"> Slider</a></li>
-                    <li class="menu-item"><a href="configurator">Config </a> <div class="menu badge feat bg-pink">NEW</div></li>
-                    <li class="menu-item"><a href="404" data-i18n="[html]submenu.error"> </a></li>
-                    <li class="menu-item"><a href="login" data-i18n="[html]submenu.register"> </a></li>
-                    <li class="menu-item"><a href="login" data-i18n="[html]header.login"> </a></li>
-                    <li class="menu-item"><a href="elements" data-i18n="[html]submenu.elements"> </a></li>
-                    <li class="menu-item"><a href="sections" data-i18n="[html]submenu.sections"> </a></li>
                   </ul> --}}
                 </li>
                 <li class="menu-item menu-item-has-children menu-last">

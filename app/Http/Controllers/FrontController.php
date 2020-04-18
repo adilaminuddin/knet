@@ -3,6 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Post;
+use App\Category;
+
 
 class FrontController extends Controller
 {
@@ -15,7 +18,9 @@ class FrontController extends Controller
     public function hdr()
     {
         # code...
-        return view('frontpart.header');
+        #$posts = Post::get()->take(6);
+        $acategories = Category::get()->take(6);
+        return view('frontpart.header',compact('acategories'));
     }
     public function ftr()
     {
