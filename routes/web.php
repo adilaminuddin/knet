@@ -30,7 +30,3 @@ Route::get('admin/logout', 'Auth\AdminLoginController@logout')->name('admin.logo
 Route::group(array('prefix'=>'admin','namespace'=>'admin'), function(){
     Route::get('dashboard', 'DashboardController@index')->name('dashboard.index');
 });
-
-//admin
-// Route::resource('admin', 'DashboardController');
-// Route::get('admin/dashboard', 'DashboardController@index')->name('dashboard.index');

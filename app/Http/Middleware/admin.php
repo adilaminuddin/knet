@@ -17,7 +17,7 @@ class admin
     {
         if(Auth::check()){
             if(Auth::user()->is_admin == 0){
-                return redirect()->back()->with('warning','You Are Not Admi Yet!');
+                return redirect()->back()->with('warning','You Are Not Admin Yet!');
             }
         }
         return $next($request);
