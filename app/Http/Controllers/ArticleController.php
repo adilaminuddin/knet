@@ -18,11 +18,14 @@ class ArticleController extends Controller
         #return view('article');
     }
     public function detail($slug){
-        $post = Post::where('slug',$slug)->first();
+        $posts = Post::where('slug',$slug)->first();
         $tags = Tag::all();
-        $category = Category::find($post->category_id);
-         $relatedPosts = $category->posts()->take(5)->get();
-        return view('artikel.detail',compact('post','relatedPosts'));
+        $category = Category::find($posts->category_id);
+        $relatedPosts = $category->posts()->take(5)->get();
+        //dd($posts);
+        $ps = array($posts);
+        //dd($ps);
+        return view('artikel.detail',compact('ps','relatedPosts'));
     }
 
     public function postByTag($slug){
