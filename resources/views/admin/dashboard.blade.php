@@ -1,7 +1,5 @@
-@extends('layouts.app')
+@extends('layout_admin.frontend')
 @section('content')
-    
-
 
 <div class="loader"></div>
   <div id="app">
