@@ -5,237 +5,562 @@
 @endsection
 
 @section('content')
-  <!-- ***** SLIDER ***** -->
-  <div class="top-header item8 overlay-image-grad">
+<div class="about-banner-wrap banner-space about-us-bg">
     <div class="container">
-      <div class="row">
-        <div class="col-sm-12 col-md-12">
-          <div class="wrapper">
-            <h1 class="heading">About Us</h1>
-            <div class="included">
-              <h4>Why Choose Antler?</h4>
-              <ul>
-                <li><i class="fas fa-check-circle"></i> Best hosting provider</li>
-              </ul>
-              <ul>
-                <li><i class="fas fa-check-circle"></i> Award cloud infrastructure</li>
-              </ul>
-              <ul>
-                <li><i class="fas fa-check-circle"></i> Awesome control panels</li>
-              </ul>
-              <ul>
-                <li><i class="fas fa-check-circle"></i> Reference Domain solutions</li>
-              </ul>
-              <ul>
-                <li><i class="fas fa-check-circle"></i> Support Premium 24/7/365</li>
-              </ul>
+        <div class="row">
+            <div class="col-lg-8 ml-auto mr-auto">
+                <div class="about-banner-content text-center">
+                    <h1 class="mb-15 text-white">About Mitech</h1>
+                    <h5 class="font-weight--normal text-white">Mitech specializes in technological and IT-related services such as product engineering, warranty management, building cloud, infrastructure, network, etc. </h5>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
     </div>
-  </div>
-  <!-- ***** PRICING TABLES ***** -->
-  <section class="pricing special sec-uping mb-80 scrollme">
+</div>
+<!--===========  feature-large-images-wrapper  Start =============-->
+<div class="feature-large-images-wrapper section-space--ptb_100">
     <div class="container">
-      <div class="row justify-content-end">
-        <div class="col-sm-12 col-md-6 col-lg-4 animateme" data-when="enter" data-from="0" data-to="1" data-opacity="1" data-translatey="-20">
-          <div class="wrapper price-container text-left">
-            <div class="top-content pb-5">
-              <img class="svg mb-3" src="fonts/svg/woman.svg" height="65" alt="">
-              <div class="title ">19.322+ Clients</div>
-              <div class="fromer pt-3">More than 19,322+ active customers trust to us daily about 52.120 services. </div>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <!-- section-title-wrap Start -->
+                <div class="section-title-wrap text-center section-space--mb_60">
+                    <h6 class="section-sub-title mb-20">Our company</h6>
+                    <h3 class="heading">We run all kinds of IT services that <br> vow your <span class="text-color-primary"> success</span></h3>
+                </div>
+                <!-- section-title-wrap Start -->
             </div>
-          </div>
         </div>
-        <div class="col-sm-12 col-md-6 col-lg-4 animateme" data-when="span" data-from="0" data-to="1" data-opacity="1" data-translatey="50">
-          <div class="wrapper price-container text-left">
-            <div class="plans badge feat bg-grey">top</div>
-            <div class="top-content pb-5">
-              <img class="svg mb-3" src="fonts/svg/rack.svg" height="65" alt="">
-              <div class="title">9.510 Infrastructure</div>
-              <div class="fromer pt-3">Our 7 Datacenters with more than 2750 servers have high availability redundant systems. </div>
+
+        <div class="cybersecurity-about-box section-space--pb_70">
+            <div class="row">
+                <div class="col-lg-4 offset-lg-1">
+                    <div class="modern-number-01">
+                        <h2 class="heading  mr-5"><span class="mark-text">38</span>Years’ Experience in IT</h2>
+                        <h6 class="heading mt-30">More About Our Success Stories</h6>
+                    </div>
+                </div>
+
+                <div class="col-lg-5 offset-lg-1">
+                    <div class="cybersecurity-about-text">
+                        <div class="text">Mitech specializes in technological and IT-related services such as product engineering, warranty management, building cloud, infrastructure, network, etc. We put a strong focus on the needs of your business to figure out solutions that best fits your demand and nail it.</div>
+                        <div class="button-text">
+                            <a href="#" class="btn-text">
+                                Discover now
+                                <span class="button-icon ml-1">
+                            <i class="far fa-long-arrow-right"></i>
+                        </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
+
+
+        <div class="row">
+            <div class="col-12">
+                <div class="feature-images__six">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 wow move-up">
+                            <!-- ht-box-icon Start -->
+                            <div class="ht-box-images style-06">
+                                <div class="image-box-wrap">
+                                    <div class="box-image">
+                                        <div class="default-image">
+                                            <img class="img-fulid" src="assets/images/icons/mitech-box-image-style-06-image-01-120x120.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="content">
+                                        <h5 class="heading">What we can do?</h5>
+                                        <div class="text">We put a strong focus on the needs of your business to figure out solutions that best fits your demand and nail it.
+                                        </div>
+                                        <a href="#" class="box-images-arrow">
+                                            <span class="button-text">Discover now</span>
+                                            <i class="far fa-long-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ht-box-icon End -->
+                        </div>
+                        <div class="col-lg-4 col-md-6 wow move-up">
+                            <!-- ht-box-icon Start -->
+                            <div class="ht-box-images style-06">
+                                <div class="image-box-wrap">
+                                    <div class="box-image">
+                                        <div class="default-image">
+                                            <img class="img-fulid" src="assets/images/icons/mitech-box-image-style-06-image-02-120x120.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="content">
+                                        <h5 class="heading">Become our partners?</h5>
+                                        <div class="text">Our preventive and progressive approach will help you take the lead while addressing possible threats in managing data.
+                                        </div>
+                                        <a href="#" class="box-images-arrow">
+                                            <span class="button-text">Discover now</span>
+                                            <i class="far fa-long-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ht-box-icon End -->
+                        </div>
+                        <div class="col-lg-4 col-md-6 wow move-up">
+                            <!-- ht-box-icon Start -->
+                            <div class="ht-box-images style-06">
+                                <div class="image-box-wrap">
+                                    <div class="box-image">
+                                        <div class="default-image">
+                                            <img class="img-fulid" src="assets/images/icons/mitech-box-image-style-06-image-03-120x120.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="content">
+                                        <h5 class="heading">Need a hand?</h5>
+                                        <div class="text">Our support team is available 24/7 a day, 7 days a week and can get ready for solving any of your situational rising problems.
+                                        </div>
+                                        <a href="#" class="box-images-arrow">
+                                            <span class="button-text">Discover now</span>
+                                            <i class="far fa-long-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ht-box-icon End -->
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="section-under-heading text-center section-space--mt_60">Challenges are just opportunities in disguise. <a href="#">Take the challenge!</a></div>
+
+            </div>
+        </div>
     </div>
-  </section>
-  <!-- ***** TEAM ***** -->
-  <section class="sec-normal sec-bg2">
-    <div class="team">
-      <div class="container">
-        <div class="randomline">
-          <div class="bigline"></div>
-          <div class="smallline"></div>
+</div>
+<!--===========  feature-large-images-wrapper  End =============-->
+<!--========= About Resources Wrapper Start ===========-->
+<div class="about-resources-wrapper">
+    <div class="container-fluid">
+        <div class="row align-items-center">
+            <div class="col-lg-6 order-2 order-lg-1">
+                <div class="resources-left-box">
+                    <div class="resources-inner">
+                        <h6 class="sub-title mb-20">Resources</h6>
+                        <h3 class="heading">Get a copy of brochure on <span class="text-color-primary"> Brand New IT Tech.</span></h3>
+                        <div class="button mt-30">
+                            <a href="#" class="ht-btn ht-btn-md">Download now (3MB)</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 order-1 order-lg-2">
+                <div class="resources-right-box">
+                    <div class="resources-right-inner text-center">
+                        <div class="resources-images">
+                            <img class="img-fluid" src="assets/images/banners/managed-it-services-book-cover.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--========= About Resources Wrapper End ===========-->
+<!--========= About Delivering Wrapper Start ===========-->
+<div class="about-delivering-wrapper section-space--ptb_100">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-title-wrap text-center section-space--mb_20">
+                    <h3 class="heading">We excel in delivering <br>optimal solutions.</h3>
+                </div>
+            </div>
         </div>
         <div class="row">
-          <div class="col-sm-12 col-md-12">
-            <h2 class="section-heading">Meet Our Management Team</h2>
-            <p class="section-subheading">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-          </div>
-          <div class="col-sm-12 col-md-4">
-            <div class="wrapper">
-              <div class="img-section">
-                <div class="soc-icons-wrap">
-                  <div class="icons">
-                    <a href=""><i class="fab fa-facebook-f"></i></a>
-                    <a href=""><i class="fab fa-google-plus-g"></i></a>
-                    <a href=""><i class="fab fa-twitter"></i></a>
-                    <a href=""><i class="fab fa-linkedin-in"></i></a>
-                  </div>
+            <div class="col-lg-6">
+                <div class="delivering-optimal-wrap">
+                    <div class="list-item">
+                        <div class="marker"></div>
+                        <div class="title-wrap">
+                            <h5 class="title"> Warranty Management IT </h5>
+                            <div class="desc">Our service offerings enhance customer experience throughout secure &amp; highly functional end-to-end warranty management. </div>
+                        </div>
+                    </div>
+                    <div class="list-item">
+                        <div class="marker"></div>
+                        <div class="title-wrap">
+                            <h5 class="title"> Quality Control System </h5>
+                            <div class="desc">It's more than a responsibility but a guarantee from us to gain customer trust with highly reliable quality control system. </div>
+                        </div>
+                    </div>
+                    <div class="list-item">
+                        <div class="marker"></div>
+                        <div class="title-wrap">
+                            <h5 class="title">Highly Professional Staffs </h5>
+                            <div class="desc">Having obtained the official & formal training in IT technology and technical fields, our staffs know more than what they show. </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <div class="team-info">
-                <img class="svg" src="patterns/supportman.svg" alt="team">
-                <h3 class="heading">John T. Erikson</h3>
-                <div class="subheading">Support, Helpdesk</div>
-                <div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit </div>
-                <a href="#" class="btn btn-default-yellow-fill mt-4">Contact</a>
-              </div>
             </div>
-          </div>
-          <div class="col-sm-12 col-md-4">
-            <div class="wrapper">
-              <div class="img-section">
-                <div class="soc-icons-wrap">
-                  <div class="icons">
-                    <a href=""><i class="fab fa-facebook-f"></i></a>
-                    <a href=""><i class="fab fa-google-plus-g"></i></a>
-                    <a href=""><i class="fab fa-twitter"></i></a>
-                    <a href=""><i class="fab fa-linkedin-in"></i></a>
-                  </div>
+            <div class="col-lg-6">
+                <div class="delivering-optimal-wrap">
+                    <div class="list-item">
+                        <div class="marker"></div>
+                        <div class="title-wrap">
+                            <h5 class="title">Product Engineering & Services </h5>
+                            <div class="desc">Develop and propose product improvements through periodical and accurate testing, repairing & refining every version. </div>
+                        </div>
+                    </div>
+                    <div class="list-item">
+                        <div class="marker"></div>
+                        <div class="title-wrap">
+                            <h5 class="title">Infrastructure Integration Technology </h5>
+                            <div class="desc">At Mitech, we have a holistic and integrated approach towards core modernization to experience technological evolution. </div>
+                        </div>
+                    </div>
+                    <div class="list-item">
+                        <div class="marker"></div>
+                        <div class="title-wrap">
+                            <h5 class="title">Information Security Management </h5>
+                            <div class="desc">Information security has been a rising issue lately due to a series of scandals from big companies, rest assured, we're here. </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <div class="team-info">
-                <img class="svg" src="patterns/commercialman.svg" alt="team">
-                <h3 class="heading">Walter T. Adams</h3>
-                <div class="subheading">Commercial Department</div>
-                <div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
-                <a href="#" class="btn btn-default-yellow-fill mt-4">Contact</a>
-              </div>
             </div>
-          </div>
-          <div class="col-sm-12 col-md-4">
-            <div class="wrapper">
-              <div class="img-section">
-                <div class="soc-icons-wrap">
-                  <div class="icons">
-                    <a href=""><i class="fab fa-facebook-f"></i></a>
-                    <a href=""><i class="fab fa-google-plus-g"></i></a>
-                    <a href=""><i class="fab fa-twitter"></i></a>
-                    <a href=""><i class="fab fa-linkedin-in"></i></a>
-                  </div>
-                </div>
-              </div>
-              <div class="team-info">
-                <div class="plans badge feat bg-pink">online</div>
-                <img class="svg" src="patterns/salesman.svg" alt="team">
-                <h3 class="heading">Verna B. Ahmed</h3>
-                <div class="subheading">Sales Department</div>
-                <div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit </div>
-                <a href="#" class="btn btn-default-yellow-fill mt-4">Contact</a>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
     </div>
-  </section>
-  <!-- ***** MAP ***** -->
-  <section class="services maping sec-normal sec-grad-grey-to-grey">
+</div>
+<!--=========== fun fact Wrapper Start ==========-->
+<div class="fun-fact-wrapper bg-theme-default section-space--pb_30 section-space--pt_60">
     <div class="container">
-      <div class="service-wrap">
         <div class="row">
-          <div class="col-sm-12 text-left">
-            <h2 class="section-heading text-white">Our Global Datacenters Geographically distant</h2>
-            <p class="section-subheading"><span class="golink">Lorem ipsum dolor</span> sit amet, consectetur adipiscing elit sed, do eiusmod tempor  <span class="c-pink">incididunt lorem ipsum</span> dolor sit amet</p>
-          </div>
-          <div class="col-md-12 pt-5 scrollme">
-            <img data-src="patterns/map.svg" class="lazyload w-10 animateme" alt="Load Balancing" data-when="view" data-from="2" data-to="0" data-opacity="0">
-            <span data-toggle="popover" data-container="body" data-trigger="hover" data-placement="top" title="" class="datacenters montreal" data-original-title="Montreal" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus."></span>
-            <span data-toggle="popover" data-container="body" data-trigger="hover" data-placement="top" title="" class="datacenters newyork" data-original-title="New York" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus."></span>
-            <span data-toggle="popover" data-container="body" data-trigger="hover" data-placement="top" title="" class="datacenters portugal" data-original-title="Portugal" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus."></span>
-            <span data-toggle="popover" data-container="body" data-trigger="hover" data-placement="top" title="" class="datacenters london" data-original-title="London" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus."></span>
-            <span data-toggle="popover" data-container="body" data-trigger="hover" data-placement="top" title="" class="datacenters moskow" data-original-title="Moskow" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus."></span>
-            <span data-toggle="popover" data-container="body" data-trigger="hover" data-placement="top" title="" class="datacenters hongkong" data-original-title="Hong Kong" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus."></span>
-            <span data-toggle="popover" data-container="body" data-trigger="hover" data-placement="top" title="" class="datacenters singapure" data-original-title="Singapure" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus."></span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- ***** CASE STUDY ***** -->
-  <section class="casestudy sec-bg1">
-    <div class="container">
-      <div class="sec-main sec-up bg-pink mb-0">
-        <img data-src="img/casestudy.png" class="lazyload" alt="Case Study">
-        <div class="plans badge feat bg-purple">case study</div>
-        <div class="row">
-          <div class="col-sm-12 col-md-12 col-lg-9">
-            <div class="slider-container slider-filter">
-              <div class="slider-wrap">
-                <div class="swiper-container main-slider swiper-0-slider initialized" data-autoplay="4000" data-touch="1" data-mouse="0" data-slides-per-view="responsive" data-loop="1" data-speed="1200" data-mode="horizontal" data-xs-slides="1" data-sm-slides="1" data-md-slides="1" data-lg-slides="1" id="0-slider">
-                  <div class="swiper-wrapper" style="width: 2820px; transform: translate3d(-2115px, 0px, 0px); transition-duration: 1.2s; height: 230px;"><div xmlns="http://www.w3.org/1999/xhtml" class="swiper-slide swiper-slide-duplicate" style="width: 705px; height: 230px;">
-                    <h3 class="author">Growtop Company</h3>
-                    <div class="content-info">
-                      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totamer rem aperiam, eaque ipsa quae ab illo inventore.</p>
-                      <em> Matt Radford - President &amp; Managing Director</em>
-                    </div>
-                    <a href="casestudy/casestudy-growtop.pdf" class="btn btn-default-yellow-fill mb-2">Case Study Download</a>
-                  </div>
-                  <div class="swiper-slide" style="width: 705px; height: 230px;">
-                    <h3 class="author">Everth Group</h3>
-                    <div class="content-info">
-                      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totamer rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi.</p>
-                      <em> Michael Jones - Executive Director</em>
-                    </div>
-                    <a href="casestudy/casestudy-everthgroup.pdf" class="btn btn-default-yellow-fill mb-2">Case Study Download</a>
-                  </div>
-                  <div class="swiper-slide" style="width: 705px; height: 230px;">
-                    <h3 class="author">Growtop Company</h3>
-                    <div class="content-info">
-                      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totamer rem aperiam, eaque ipsa quae ab illo inventore.</p>
-                      <em> Matt Radford - President &amp; Managing Director</em>
-                    </div>
-                    <a href="casestudy/casestudy-growtop.pdf" class="btn btn-default-yellow-fill mb-2">Case Study Download</a>
-                  </div>
-                  <div xmlns="http://www.w3.org/1999/xhtml" class="swiper-slide swiper-slide-duplicate swiper-slide-visible swiper-slide-active" style="width: 705px; height: 230px;">
-                    <h3 class="author">Everth Group</h3>
-                    <div class="content-info">
-                      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totamer rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi.</p>
-                      <em> Michael Jones - Executive Director</em>
-                    </div>
-                    <a href="casestudy/casestudy-everthgroup.pdf" class="btn btn-default-yellow-fill mb-2">Case Study Download</a>
-                  </div></div>
-                  <div class="pagination vertical-mode pagination-index pagination-0-slider"><span class="swiper-pagination-switch swiper-visible-switch swiper-active-switch"></span><span class="swiper-pagination-switch"></span></div>
+            <div class="col-md-3 col-sm-6 wow move-up">
+                <div class="fun-fact--two text-center">
+                    <div class="fun-fact__count counter">120</div>
+                    <h6 class="fun-fact__text">Happy clients</h6>
                 </div>
-              </div>
             </div>
-          </div>
+            <div class="col-md-3 col-sm-6 wow move-up">
+                <div class="fun-fact--two text-center">
+                    <div class="fun-fact__count counter">32</div>
+                    <h6 class="fun-fact__text">Finished projects</h6>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 wow move-up">
+                <div class="fun-fact--two text-center">
+                    <div class="fun-fact__count counter">73</div>
+                    <h6 class="fun-fact__text">Skilled Experts</h6>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 wow move-up">
+                <div class="fun-fact--two text-center">
+                    <div class="fun-fact__count counter">318</div>
+                    <h6 class="fun-fact__text">Media Posts</h6>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </section>
-  <!-- ***** VISIT ***** -->
-  <section class="getready sec-bg1">
+</div>
+<!--=========== fun fact Wrapper End ==========-->
+<!--====================  testimonial section ====================-->
+<div class="testimonial-slider-area section-space--pt_100">
     <div class="container">
-      <div class="row">
-        <div class="col-lg-8">
-          <div class="column-support-txt">
-            <h2 class="section-heading">You intend to visit our facilities?</h2>
-            <p class="section-subheading">Please schedule an date with our sales manager if you're interested in visit us.</p>
-          </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-title-wrap text-center section-space--mb_40">
+                    <h6 class="section-sub-title mb-20">Testimonials</h6>
+                    <h3 class="heading">What do people praise about <span class="text-color-primary"> Mitech?</span></h3>
+                </div>
+                <div class="testimonial-slider">
+                    <div class="swiper-container testimonial-slider__container">
+                        <div class="swiper-wrapper testimonial-slider__wrapper">
+                            <div class="swiper-slide">
+                                <div class="testimonial-slider__one wow move-up">
+
+                                    <div class="testimonial-slider--info">
+                                        <div class="testimonial-slider__media">
+                                            <img src="assets/images/testimonial/mitech-testimonial-avata-02-90x90.jpg" class="img-fluid" alt="">
+                                        </div>
+
+                                        <div class="testimonial-slider__author">
+                                            <div class="testimonial-rating">
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                            </div>
+                                            <div class="author-info">
+                                                <h6 class="name">Abbie Ferguson</h6>
+                                                <span class="designation">Marketing</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="testimonial-slider__text">I’ve been working with over 35 IT companies on more than 200 projects of our company, but @Mitech is one of the most impressive to me.</div>
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="testimonial-slider__one wow move-up">
+
+                                    <div class="testimonial-slider--info">
+                                        <div class="testimonial-slider__media">
+                                            <img src="assets/images/testimonial/mitech-testimonial-avata-03-90x90.jpg" class="img-fluid" alt="">
+                                        </div>
+
+                                        <div class="testimonial-slider__author">
+                                            <div class="testimonial-rating">
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                            </div>
+                                            <div class="author-info">
+                                                <h6 class="name">Monica Blews</h6>
+                                                <span class="designation">Web designer</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="testimonial-slider__text">I’ve been working with over 35 IT companies on more than 200 projects of our company, but @Mitech is one of the most impressive to me.</div>
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="testimonial-slider__one wow move-up">
+
+                                    <div class="testimonial-slider--info">
+                                        <div class="testimonial-slider__media">
+                                            <img src="assets/images/testimonial/mitech-testimonial-avata-04-90x90.jpg" class="img-fluid" alt="">
+                                        </div>
+
+                                        <div class="testimonial-slider__author">
+                                            <div class="testimonial-rating">
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                            </div>
+                                            <div class="author-info">
+                                                <h6 class="name">Abbie Ferguson</h6>
+                                                <span class="designation">WEB DESIGNER</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="testimonial-slider__text">I’ve been working with over 35 IT companies on more than 200 projects of our company, but @Mitech is one of the most impressive to me.</div>
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="testimonial-slider__one wow move-up">
+
+                                    <div class="testimonial-slider--info">
+                                        <div class="testimonial-slider__media">
+                                            <img src="assets/images/testimonial/mitech-testimonial-avata-01-90x90.jpg" class="img-fluid" alt="">
+                                        </div>
+
+                                        <div class="testimonial-slider__author">
+                                            <div class="testimonial-rating">
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                            </div>
+                                            <div class="author-info">
+                                                <h6 class="name">Abbie Ferguson</h6>
+                                                <span class="designation">WEB DESIGNER</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="testimonial-slider__text">I’ve been working with over 35 IT companies on more than 200 projects of our company, but @Mitech is one of the most impressive to me.</div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination swiper-pagination-t01 section-space--mt_30"></div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="col-lg-4">
-          <div class="btn-floats">
-            <a href="contact.html" class="btn btn-default-pink-fill">Contact Sales Manager</a>
-          </div>
-        </div>
-      </div>
     </div>
-  </section>
-<!-- ***** UPLOADED FOOTER FROM FOOTER.HTML ****** -->
+</div>
+<!--====================  End of testimonial section  ====================-->
+
+<!--====================  brand logo slider area ====================-->
+<div class="brand-logo-slider-area section-space--ptb_60">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <!-- brand logo slider -->
+                <div class="brand-logo-slider__container-area">
+                    <div class="swiper-container brand-logo-slider__container">
+                        <div class="swiper-wrapper brand-logo-slider__one">
+                            <div class="swiper-slide brand-logo brand-logo--slider">
+                                <a href="#">
+                                    <div class="brand-logo__image">
+                                        <img src="assets/images/brand/mitech-client-logo-01.png" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="brand-logo__image-hover">
+                                        <img src="assets/images/brand/mitech-client-logo-01-hover.png" class="img-fluid" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide brand-logo brand-logo--slider">
+                                <a href="#">
+                                    <div class="brand-logo__image">
+                                        <img src="assets/images/brand/mitech-client-logo-02.png" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="brand-logo__image-hover">
+                                        <img src="assets/images/brand/mitech-client-logo-02-hover.png" class="img-fluid" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide brand-logo brand-logo--slider">
+                                <a href="#">
+                                    <div class="brand-logo__image">
+                                        <img src="assets/images/brand/mitech-client-logo-03.png" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="brand-logo__image-hover">
+                                        <img src="assets/images/brand/mitech-client-logo-03-hover.png" class="img-fluid" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide brand-logo brand-logo--slider">
+                                <a href="#">
+                                    <div class="brand-logo__image">
+                                        <img src="assets/images/brand/mitech-client-logo-04.png" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="brand-logo__image-hover">
+                                        <img src="assets/images/brand/mitech-client-logo-04-hover.png" class="img-fluid" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide brand-logo brand-logo--slider">
+                                <a href="#">
+                                    <div class="brand-logo__image">
+                                        <img src="assets/images/brand/mitech-client-logo-05.png" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="brand-logo__image-hover">
+                                        <img src="assets/images/brand/mitech-client-logo-05-hover.png" class="img-fluid" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide brand-logo brand-logo--slider">
+                                <a href="#">
+                                    <div class="brand-logo__image">
+                                        <img src="assets/images/brand/mitech-client-logo-06.png" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="brand-logo__image-hover">
+                                        <img src="assets/images/brand/mitech-client-logo-06-hover.png" class="img-fluid" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide brand-logo brand-logo--slider">
+                                <a href="#">
+                                    <div class="brand-logo__image">
+                                        <img src="assets/images/brand/mitech-client-logo-07.png" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="brand-logo__image-hover">
+                                        <img src="assets/images/brand/mitech-client-logo-07-hover.png" class="img-fluid" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide brand-logo brand-logo--slider">
+                                <a href="#">
+                                    <div class="brand-logo__image">
+                                        <img src="assets/images/brand/mitech-client-logo-08.png" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="brand-logo__image-hover">
+                                        <img src="assets/images/brand/mitech-client-logo-08-hover.png" class="img-fluid" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide brand-logo brand-logo--slider">
+                                <a href="#">
+                                    <div class="brand-logo__image">
+                                        <img src="assets/images/brand/mitech-client-logo-09.png" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="brand-logo__image-hover">
+                                        <img src="assets/images/brand/mitech-client-logo-09-hover.png" class="img-fluid" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--====================  End of brand logo slider area  ====================-->
+<!--============ Contact Us Area Start =================-->
+<div class="contact-us-area infotechno-contact-us-bg section-space--pt_100">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-7">
+                <div class="image">
+                    <img class="img-fluid" src="assets/images/banners/home-cybersecurity-contact-bg-image.png" alt="">
+                </div>
+            </div>
+
+            <div class="col-lg-4 ml-auto">
+                <div class="contact-info style-two text-left">
+
+                    <div class="contact-info-title-wrap text-center">
+                        <h3 class="heading  mb-10">4.9/5.0</h3>
+                        <div class="ht-star-rating lg-style">
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <p class="sub-text">by 700+ customers for 3200+ clients</p>
+                    </div>
+
+                    <div class="contact-list-item">
+                        <a href="tel:190068668" class="single-contact-list">
+                            <div class="content-wrap">
+                                <div class="content">
+                                    <div class="icon">
+                                        <span class="fal fa-phone"></span>
+                                    </div>
+                                    <div class="main-content">
+                                        <h6 class="heading">Call for advice now!</h6>
+                                        <div class="text">1900 68668</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="mailto:hello@mitech.com" class="single-contact-list">
+                            <div class="content-wrap">
+                                <div class="content">
+                                    <div class="icon">
+                                        <span class="fal fa-envelope"></span>
+                                    </div>
+                                    <div class="main-content">
+                                        <h6 class="heading">Say hello</h6>
+                                        <div class="text">hello@mitech.com</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--============ Contact Us Area End =================-->
+
 @endsection
 
 @section('js')

@@ -32,8 +32,10 @@
 
     @include('frontpart.header')
 
+    @yield('hero')
+    @yield('breadcrumb') 
     
-    <div class="site-wrapper-reveal section-space--pt__120">
+    <div class="site-wrapper-reveal">
         @yield('content')
     </div>
 

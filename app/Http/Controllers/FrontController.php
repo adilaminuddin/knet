@@ -12,7 +12,7 @@ class FrontController extends Controller
     public function index()
     {
         # code...
-        return view('welcome');
+        return view('index');
     }
 
     public function hdr()

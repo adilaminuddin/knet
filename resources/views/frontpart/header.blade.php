@@ -47,16 +47,16 @@
                               <div class="header__navigation menu-style-three d-none d-xl-block">
                                   <nav class="navigation-menu">
                                       <ul>
-                                          <li class="has-children has-children--multilevel-submenu">
-                                              <a href="#"><span>Home</span></a>
-                                              <ul class="submenu">
+                                          <li class="has-children">
+                                              <a href="/"><span>Home</span></a>
+                                              {{-- <ul class="submenu">
                                                   <li><a href="index-infotechno.html"><span>Infotechno</span></a></li>
                                                   <li><a href="index-processing.html"><span>Processing</span></a></li>
                                                   <li><a href="index-appointment.html"><span>Appointment</span></a></li>
                                                   <li><a href="index-services.html"><span>Services</span></a></li>
                                                   <li><a href="index-resolutions.html"><span>Resolutions</span></a></li>
                                                   <li><a href="index-cybersecurity.html"><span>Cybersecurity</span></a></li>
-                                              </ul>
+                                              </ul> --}}
                                           </li>
                                           <li class="has-children has-children--multilevel-submenu">
                                               <a href="#"><span>Company</span></a>

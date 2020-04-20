@@ -1,76 +1,148 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
+
+<!-- index.html  21 Nov 2019 03:44:50 GMT -->
 <head>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>SB Admin 2 - Dashboard</title>
-
-    <!-- Custom fonts for this template-->
-    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-
-    <!-- Custom styles for this template-->
-    <link href="{{asset('admin/css/sb-admin-2.min.css')}}" rel="stylesheet">
-
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
+  <title>Otika - Admin Dashboard Template</title>
+  <!-- General CSS Files -->
+  <link rel="stylesheet" href="{{asset('admin/css/app.min.css')}}">
+  <!-- Template CSS -->
+  <link rel="stylesheet" href="{{asset('admin/css/style.css')}}">
+  <link rel="stylesheet" href="{{asset('admin/css/components.css')}}">
+  <!-- Custom style CSS -->
+  <link rel="stylesheet" href="{{asset('admin/css/custom.css')}}">
+  <link rel='shortcut icon' type='image/x-icon' href='{{asset('admin/img/favicon.ico')}}' />
 </head>
 
-<body id="page-top">
+<body>
+  <div class="loader"></div>
+  <div id="app">
+    <div class="main-wrapper main-wrapper-1">
+      <div class="navbar-bg"></div>
 
-    <!-- Page Wrapper -->
-    <div id="wrapper">
+      @include('layout_admin.navbar')
+      @include('layout_admin.sidebar')
+      <!-- Main Content -->
+      <div class="main-content">
 
-    @include('layout_admin.sidebar')
-    @include('layout_admin.navbar')
-    @yield('content')
+        @yield('content')
 
-
-    <!-- Footer -->
-    <footer class="sticky-footer bg-white">
-        <div class="container my-auto">
-        <div class="copyright text-center my-auto">
-            <span>Copyright &copy; Your Website 2019</span>
+        <div class="settingSidebar">
+          <a href="javascript:void(0)" class="settingPanelToggle"> <i class="fa fa-spin fa-cog"></i>
+          </a>
+          <div class="settingSidebar-body ps-container ps-theme-default">
+            <div class=" fade show active">
+              <div class="setting-panel-header">Setting Panel
+              </div>
+              <div class="p-15 border-bottom">
+                <h6 class="font-medium m-b-10">Select Layout</h6>
+                <div class="selectgroup layout-color w-50">
+                  <label class="selectgroup-item">
+                    <input type="radio" name="value" value="1" class="selectgroup-input-radio select-layout" checked>
+                    <span class="selectgroup-button">Light</span>
+                  </label>
+                  <label class="selectgroup-item">
+                    <input type="radio" name="value" value="2" class="selectgroup-input-radio select-layout">
+                    <span class="selectgroup-button">Dark</span>
+                  </label>
+                </div>
+              </div>
+              <div class="p-15 border-bottom">
+                <h6 class="font-medium m-b-10">Sidebar Color</h6>
+                <div class="selectgroup selectgroup-pills sidebar-color">
+                  <label class="selectgroup-item">
+                    <input type="radio" name="icon-input" value="1" class="selectgroup-input select-sidebar">
+                    <span class="selectgroup-button selectgroup-button-icon" data-toggle="tooltip"
+                      data-original-title="Light Sidebar"><i class="fas fa-sun"></i></span>
+                  </label>
+                  <label class="selectgroup-item">
+                    <input type="radio" name="icon-input" value="2" class="selectgroup-input select-sidebar" checked>
+                    <span class="selectgroup-button selectgroup-button-icon" data-toggle="tooltip"
+                      data-original-title="Dark Sidebar"><i class="fas fa-moon"></i></span>
+                  </label>
+                </div>
+              </div>
+              <div class="p-15 border-bottom">
+                <h6 class="font-medium m-b-10">Color Theme</h6>
+                <div class="theme-setting-options">
+                  <ul class="choose-theme list-unstyled mb-0">
+                    <li title="white" class="active">
+                      <div class="white"></div>
+                    </li>
+                    <li title="cyan">
+                      <div class="cyan"></div>
+                    </li>
+                    <li title="black">
+                      <div class="black"></div>
+                    </li>
+                    <li title="purple">
+                      <div class="purple"></div>
+                    </li>
+                    <li title="orange">
+                      <div class="orange"></div>
+                    </li>
+                    <li title="green">
+                      <div class="green"></div>
+                    </li>
+                    <li title="red">
+                      <div class="red"></div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="p-15 border-bottom">
+                <div class="theme-setting-options">
+                  <label class="m-b-0">
+                    <input type="checkbox" name="custom-switch-checkbox" class="custom-switch-input"
+                      id="mini_sidebar_setting">
+                    <span class="custom-switch-indicator"></span>
+                    <span class="control-label p-l-10">Mini Sidebar</span>
+                  </label>
+                </div>
+              </div>
+              <div class="p-15 border-bottom">
+                <div class="theme-setting-options">
+                  <label class="m-b-0">
+                    <input type="checkbox" name="custom-switch-checkbox" class="custom-switch-input"
+                      id="sticky_header_setting">
+                    <span class="custom-switch-indicator"></span>
+                    <span class="control-label p-l-10">Sticky Header</span>
+                  </label>
+                </div>
+              </div>
+              <div class="mt-4 mb-4 p-3 align-center rt-sidebar-last-ele">
+                <a href="#" class="btn btn-icon icon-left btn-primary btn-restore-theme">
+                  <i class="fas fa-undo"></i> Restore Default
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
+      <footer class="main-footer">
+        <div class="footer-left">
+          <a href="templateshub.net">Templateshub</a></a>
         </div>
-    </footer>
-
-    <!-- Scroll to Top Button-->
-    <a class="scroll-to-top rounded" href="#page-top">
-        <i class="fas fa-angle-up"></i>
-    </a>
-
-    <!-- Control Sidebar -->
-    {{-- <aside class="control-sidebar control-sidebar-dark">
-        <!-- Control sidebar content goes here -->
-    </aside> --}}
-    <!-- /.control-sidebar -->
-</div>
-    <!-- ./wrapper -->
-
-    <!-- Bootstrap core JavaScript-->
-    <script src="{{asset('admin/vendor/jquery/jquery.min.js')}}"></script>
-    <script src="{{asset('admin/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
-
-    <!-- Core plugin JavaScript-->
-    <script src="{{asset('admin/vendor/jquery-easing/jquery.easing.min.js')}}"></script>
-
-    <!-- Custom scripts for all pages-->
-    <script src="{{asset('admin/js/sb-admin-2.min.js')}}"></script>
-
-    <!-- Page level plugins -->
-    <script src="{{asset('admin/vendor/chart.js/Chart.min.js')}}"></script>
-
-    <!-- Page level custom scripts -->
-    <script src="{{asset('admin/js/demo/chart-area-demo.js')}}"></script>
-    <script src="{{asset('admin/js/demo/chart-pie-demo.js')}}"></script>
-
-@stack('script')
+        <div class="footer-right">
+        </div>
+      </footer>
+    </div>
+  </div>
+  <!-- General JS Scripts -->
+  <script src="{{asset('admin/js/app.min.js')}}"></script>
+  <!-- JS Libraies -->
+  <script src="{{asset('admin/bundles/apexcharts/apexcharts.min.js')}}"></script>
+  <!-- Page Specific JS File -->
+  <script src="{{asset('admin/js/page/index.js')}}"></script>
+  <!-- Template JS File -->
+  <script src="{{asset('admin/js/scripts.js')}}"></script>
+  <!-- Custom JS File -->
+  <script src="{{asset('admin/js/custom.js')}}"></script>
 </body>
 
+
+<!-- index.html  21 Nov 2019 03:47:04 GMT -->
 </html>
