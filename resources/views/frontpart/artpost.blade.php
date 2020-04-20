@@ -7,7 +7,7 @@
           <div class="col-md-4">
             <img data-src="{{ asset('img/postpic/'.$p->featured) }}" class="img-responsive lazyload" alt="photo">
             <div class="service-section m-0">
-              <div class="plans badge feat bg-pink">{{ $p->category->name }}</div>
+              <div class="plans badge feat bg-pink">{{ $p->name }}</div>
               <div class="title mt-0">{{ $p->title }}</div>
               <p class="subtitle">@php echo substr($p->content,0,150); @endphp</p>
               <hr>

@@ -50,7 +50,7 @@
     </a>
     <!--====================  End of scroll top  ====================-->
     <!-- Start Toolbar -->
-    @include('frontpart.toolbar')
+    {{-- @include('frontpart.toolbar') --}}
     <!-- End Toolbar -->
 
     @include('frontpart.mobilemenu')

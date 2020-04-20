@@ -3,18 +3,39 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
-use App\Post;
-use App\Tag;
+
 class Post extends Model
 {
-    protected $fillable = ['title','description','slug','category_id','featured'];
-
-    public function category(){
-        return $this->belongsTo(Category::class,'category_id');
+    public function user()
+    {
+        return $this->belongsTo('App\User');
     }
 
-    public function tags(){
-        return $this->belongsToMany(Tag::class);
+    public function categories()
+    {
+        return $this->belongsToMany('App\Category')->withTimestamps();
+    }
+    public function tags()
+    {
+        return $this->belongsToMany('App\Tag')->withTimestamps();
     }
 
+    public function favorite_to_users()
+    {
+        return $this->belongsToMany('App\User')->withTimestamps();
+    }
+
+    public function comments()
+    {
+        return $this->hasMany('App\Comment');
+    }
+
+    public function scopeApproved($query)
+    {
+        return $query->where('is_approved', 1);
+    }
+    public function scopePublished($query)
+    {
+        return $query->where('status', 1);
+    }
 }

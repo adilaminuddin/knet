@@ -3,86 +3,238 @@
 @section('css')
     
 @endsection
+@section('breadcrumb')
+        <!-- breadcrumb-area start -->
+        <div class="breadcrumb-area">
+          <div class="container">
+              <div class="row">
+                  <div class="col-12">
+                      <div class="breadcrumb_box text-center">
+                          <h2 class="breadcrumb-title">IT Services</h2>
+                          <!-- breadcrumb-list start -->
+                          <ul class="breadcrumb-list">
+                              <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                              <li class="breadcrumb-item active">IT Services</li>
+                          </ul>
+                          <!-- breadcrumb-list end -->
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!-- breadcrumb-area end -->
+@endsection
 
 @section('content')
-      <!-- ***** BANNER ***** -->
-  <div class="top-header scrollme">
-    <img class="svg pattern" src="patterns/promo-w.svg" alt="promos">
-    <div class="total-grad-pink-blue-intense"></div>
-    <div class="container">
+
+<!--===========  feature-icon-wrapper  Start =============-->
+<div class="feature-icon-wrapper section-space--ptb_100">
+  <div class="container">
+
       <div class="row">
-        <div class="col-lg-12">
-          <div class="wrapper animateme" data-when="span" data-from="0" data-to="0.75" data-opacity="1" data-translatey="-50">
-            <div class="float-right"><a href="https://themeforest.net/item/antler-hosting-provider-whmcs-template/23139614" target="_blank" class="btn btn-default-pink-fill">Buy Antler Now</a></div>
-            <div class="heading">Black Friday <b class="c-pink">Sale*</b></div>
-            <div class="subheding">Antler template was build in HTML5 and CSS3 technology based on Bootstrap Framework and developed to directly integrate with the WHMCS Client Area, through login, domain search and Hosting e VPS plans (already integrated).</div>
+          <div class="col-lg-12">
+              <div class="section-title-wrap text-center section-space--mb_40">
+                  <h3 class="heading">Preparing for your success, <br> we provide <span class="text-color-primary"> truly prominent IT solutions.</span></h3>
+              </div>
           </div>
-        </div>
       </div>
-    </div>
-  </div>
-  <!-- ***** COUNTDOWN ***** -->
-  <div class="pt-4 pb-4 sec-bg2 m-0 alert">
-    <button type="button" class="close p" data-dismiss="alert">×</button>
-    <div class="container">
+
       <div class="row">
-        <div class="col-md-7">
-          <h4 class="count-txt pr-2"><span class="c-pink">*</span> Special Offer - 50% Off Antler Template </h4>
-        </div>
-        <div class="col-md-5">
-          <div class="count-content float-right">
-            <h4><strong id="specialclock" class="clock c-pink"></strong></h4>
+          <div class="col-12">
+              <div class="feature-list__one">
+                  <div class="row">
+                    @foreach ($collection as $item)
+                        
+                    @endforeach
+                      <div class="col-lg-3 col-md-6">
+                          <!-- ht-box-icon Start -->
+                          <div class="ht-box-icon style-01 single-svg-icon-box">
+                              <div class="icon-box-wrap">
+                                  <div class="icon">
+
+                                      <!--<img src="assets/images/svg/linea-basic-heart.svg" alt="">-->
+
+                                      <div class="svg-icon" id="svg-icon-1" data-svg-icon="assets/images/svg/linea-basic-heart.svg"></div>
+                                  </div>
+                                  <div class="content">
+                                      <h5 class="heading">IT Design </h5>
+                                      <div class="text">We provide the most responsive and functional IT design for companies and businesses worldwide.
+                                      </div>
+                                      <div class="feature-btn">
+                                          <a href="#">
+                                              <span class="button-text">Discover now</span>
+                                              <i class="far fa-long-arrow-right"></i>
+                                          </a>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <!-- ht-box-icon End -->
+                      </div>
+                      <div class="col-lg-3 col-md-6">
+                          <!-- ht-box-icon Start -->
+                          <div class="ht-box-icon style-01 single-svg-icon-box">
+                              <div class="icon-box-wrap">
+                                  <div class="icon">
+                                      <div class="svg-icon" id="svg-icon-2" data-svg-icon="assets/images/svg/linea-basic-case.svg"></div>
+                                  </div>
+                                  <div class="content">
+                                      <h5 class="heading">IT Management</h5>
+                                      <div class="text">It’s possible to simultaneously manage and transform information from one server to another.
+                                      </div>
+                                      <div class="feature-btn">
+                                          <a href="#">
+                                              <span class="button-text">Discover now</span>
+                                              <i class="far fa-long-arrow-right"></i>
+                                          </a>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <!-- ht-box-icon End -->
+                      </div>
+                      <div class="col-lg-3 col-md-6">
+                          <!-- ht-box-icon Start -->
+                          <div class="ht-box-icon style-01 single-svg-icon-box">
+                              <div class="icon-box-wrap">
+                                  <div class="icon">
+                                      <div class="svg-icon" id="svg-icon-3" data-svg-icon="assets/images/svg/linea-basic-alarm.svg"></div>
+                                  </div>
+                                  <div class="content">
+                                      <h5 class="heading">Data Security</h5>
+                                      <div class="text">We provide the most responsive and functional IT design for companies and businesses worldwide.
+                                      </div>
+                                      <div class="feature-btn">
+                                          <a href="#">
+                                              <span class="button-text">Discover now</span>
+                                              <i class="far fa-long-arrow-right"></i>
+                                          </a>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <!-- ht-box-icon End -->
+                      </div>
+                      <div class="col-lg-3 col-md-6">
+                          <!-- ht-box-icon Start -->
+                          <div class="ht-box-icon style-01 single-svg-icon-box">
+                              <div class="icon-box-wrap">
+                                  <div class="icon">
+                                      <div class="svg-icon" id="svg-icon-4" data-svg-icon="assets/images/svg/linea-basic-geolocalize-05.svg"></div>
+                                  </div>
+                                  <div class="content">
+                                      <h5 class="heading">Business Reform</h5>
+                                      <div class="text">We provide the most responsive and functional IT design for companies and businesses worldwide.
+                                      </div>
+                                      <div class="feature-btn">
+                                          <a href="#">
+                                              <span class="button-text">Discover now</span>
+                                              <i class="far fa-long-arrow-right"></i>
+                                          </a>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <!-- ht-box-icon End -->
+                      </div>
+                      <div class="col-lg-3 col-md-6">
+                          <!-- ht-box-icon Start -->
+                          <div class="ht-box-icon style-01 single-svg-icon-box">
+                              <div class="icon-box-wrap">
+                                  <div class="icon">
+                                      <div class="svg-icon" id="svg-icon-5" data-svg-icon="assets/images/svg/linea-ecommerce-money.svg"></div>
+                                  </div>
+                                  <div class="content">
+                                      <h5 class="heading">Infrastructure Plan</h5>
+                                      <div class="text">We provide the most responsive and functional IT design for companies and businesses worldwide.
+                                      </div>
+                                      <div class="feature-btn">
+                                          <a href="#">
+                                              <span class="button-text">Discover now</span>
+                                              <i class="far fa-long-arrow-right"></i>
+                                          </a>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <!-- ht-box-icon End -->
+                      </div>
+                      <div class="col-lg-3 col-md-6">
+                          <!-- ht-box-icon Start -->
+                          <div class="ht-box-icon style-01 single-svg-icon-box">
+                              <div class="icon-box-wrap">
+                                  <div class="icon">
+                                      <div class="svg-icon" id="svg-icon-6" data-svg-icon="assets/images/svg/linea-basic-spread-text-bookmark.svg"></div>
+                                  </div>
+                                  <div class="content">
+                                      <h5 class="heading">Firewall Advance</h5>
+                                      <div class="text">We provide the most responsive and functional IT design for companies and businesses worldwide.
+                                      </div>
+                                      <div class="feature-btn">
+                                          <a href="#">
+                                              <span class="button-text">Discover now</span>
+                                              <i class="far fa-long-arrow-right"></i>
+                                          </a>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <!-- ht-box-icon End -->
+                      </div>
+                      <div class="col-lg-3 col-md-6">
+                          <!-- ht-box-icon Start -->
+                          <div class="ht-box-icon style-01 single-svg-icon-box">
+                              <div class="icon-box-wrap">
+                                  <div class="icon">
+                                      <div class="svg-icon" id="svg-icon-7" data-svg-icon="assets/images/svg/linea-music-headphones.svg"></div>
+                                  </div>
+                                  <div class="content">
+                                      <h5 class="heading">Desktop Computing</h5>
+                                      <div class="text">We provide the most responsive and functional IT design for companies and businesses worldwide.
+                                      </div>
+                                      <div class="feature-btn">
+                                          <a href="#">
+                                              <span class="button-text">Discover now</span>
+                                              <i class="far fa-long-arrow-right"></i>
+                                          </a>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <!-- ht-box-icon End -->
+                      </div>
+                      <div class="col-lg-3 col-md-6">
+                          <!-- ht-box-icon Start -->
+                          <div class="ht-box-icon style-01 single-svg-icon-box">
+                              <div class="icon-box-wrap">
+                                  <div class="icon">
+                                      <div class="svg-icon" id="svg-icon-8" data-svg-icon="assets/images/svg/linea-basic-gear.svg"></div>
+                                  </div>
+                                  <div class="content">
+                                      <h5 class="heading">Software Engineering</h5>
+                                      <div class="text">We provide the most responsive and functional IT design for companies and businesses worldwide.
+                                      </div>
+                                      <div class="feature-btn">
+                                          <a href="#">
+                                              <span class="button-text">Discover now</span>
+                                              <i class="far fa-long-arrow-right"></i>
+                                          </a>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <!-- ht-box-icon End -->
+                      </div>
+                      {{-- <div class="col-12">
+                          <div class="section-under-heading text-center section-space--mt_60">Can’t find your industry? <a href="#"> Contact us now!</a></div>
+                      </div> --}}
+                  </div>
+              </div>
           </div>
-        </div>
       </div>
-    </div>
   </div>
-  
-  <!-- ***** PROMO PLANS ***** -->
-  @include('frontpart.artpost')
-  <!-- ***** PROMOS ***** -->
-  <section class="services sec-normal exapath sec-bg4 scrollme">
-    <div class="container">
-      <div class="service-wrap">
-        <div class="row">
-          <div class="col-sm-12">
-            <h2 class="section-heading">Smart Main Features Available</h2>
-            <p class="section-subheading">Check all powerfull highlights through the item page <a href="https://themeforest.net/item/antler-hosting-provider-whmcs-template/23139614" target="_blank" class="golink"><b>here</b></a></p>
-          </div>
-          <div class="col-sm-12 col-md-4 animateme" data-when="enter" data-from="1" data-to="0" data-opacity="1" data-translatex="-60" data-easeinout="0">
-            <div class="service-section">
-              <div class="plans badge feat bg-pink">i18next</div>
-              <img class="svg" src="{{asset('fonts/svg/location.svg')}}" alt="">
-              <div class="title">i18n Language Translation</div>
-              <p class="subtitle">
-                i18next is a Internationalisation framework written in and for JavaScript.
-              </p>
-            </div>
-          </div>
-          <div class="col-sm-12 col-md-4 animateme" data-when="enter" data-from="1" data-to="0" data-opacity="1" data-translatey="60" data-easeinout="0">
-            <div class="service-section">
-              <div class="plans badge feat bg-pink">contact form</div>
-              <img class="svg" src="{{asset('fonts/svg/emailopen.svg')}}" alt="">
-              <div class="title">Working PHP Contact Form</div>
-              <p class="subtitle">
-                Send the form contents to your email address easily through a well-written php code.
-              </p>
-            </div>
-          </div>
-          <div class="col-sm-12 col-md-4 animateme" data-when="enter" data-from="1" data-to="0" data-opacity="1" data-translatex="60" data-easeinout="0">
-            <div class="service-section">
-              <div class="plans badge feat bg-grey">live chat</div>
-              <img class="svg" src="{{asset('fonts/svg/livechat.svg')}}" alt="">
-              <div class="title">Tawk.to Modern Live Chat</div>
-              <p class="subtitle">
-                Tawk.to is a free messaging app to monitor and chat with the visitors on your website.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+</div>
+<!--===========  feature-icon-wrapper  End =============-->
 @endsection
 
 @section('js')

@@ -35,7 +35,7 @@
                 Settings
               </a>
               <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="{{ route('admin.logout') }}"
+                <a class="dropdown-item" href="{{ route('logout') }}"
                     onclick="event.preventDefault();
                     document.getElementById('logout-form').submit();">
                     {{ __('Logout') }}

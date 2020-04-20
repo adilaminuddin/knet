@@ -2,9 +2,10 @@
 
 namespace App\Http\Controllers\Admin;
 
+use App\Tag;
+use Brian2694\Toastr\Facades\Toastr;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use App\Tag;
 
 class TagController extends Controller
 {
@@ -15,7 +16,7 @@ class TagController extends Controller
      */
     public function index()
     {
-        $tags  = Tag::all();
+        $tags = Tag::latest()->get();
         return view('admin.tag.index',compact('tags'));
     }
 
@@ -38,14 +39,14 @@ class TagController extends Controller
     public function store(Request $request)
     {
         $this->validate($request,[
-            'name' => 'required|min:1'
+            'name' => 'required'
         ]);
         $tag = new Tag();
         $tag->name = $request->name;
         $tag->slug = str_slug($request->name);
-        if($tag->save()){
-            return redirect(route('tag.index'))->with('success','Tag Created Success');
-        }
+        $tag->save();
+        Toastr::success('Tag Successfully Saved :)' ,'Success');
+        return redirect()->route('admin.tag.index');
     }
 
     /**
@@ -67,8 +68,8 @@ class TagController extends Controller
      */
     public function edit($id)
     {
-        $tag  = Tag::find($id);
-        return view('admin.tag.update',compact('tag'));
+        $tag = Tag::find($id);
+        return view('admin.tag.edit',compact('tag'));
     }
 
     /**
@@ -80,15 +81,12 @@ class TagController extends Controller
      */
     public function update(Request $request, $id)
     {
-        $this->validate($request,[
-            'name' => 'required|min:1'
-        ]);
         $tag = Tag::find($id);
         $tag->name = $request->name;
         $tag->slug = str_slug($request->name);
-        if($tag->save()){
-            return redirect(route('tag.index'))->with('success','Tag Updated Success');
-        }
+        $tag->save();
+        Toastr::success('Tag Successfully Updated :)','Success');
+        return redirect()->route('admin.tag.index');
     }
 
     /**
@@ -99,8 +97,8 @@ class TagController extends Controller
      */
     public function destroy($id)
     {
-        if(Tag::where('id',$id)->delete()){
-            return redirect()->back()->with('success','Tag Deleted Success!');
-        }
+        Tag::find($id)->delete();
+        Toastr::success('Tag Successfully Deleted :)','Success');
+        return redirect()->back();
     }
 }

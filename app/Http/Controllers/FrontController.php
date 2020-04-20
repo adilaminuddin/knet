@@ -12,7 +12,9 @@ class FrontController extends Controller
     public function index()
     {
         # code...
-        return view('index');
+        $categories = Category::all();
+        $posts = Post::latest()->approved()->published()->take(6)->get();
+        return view('index',compact('categories','posts'));
     }
 
     public function hdr()

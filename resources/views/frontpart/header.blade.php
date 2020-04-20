@@ -37,7 +37,7 @@
                           <!-- brand logo -->
                           <div class="header__logo">
                               <a href="index.html">
-                                  <img src="assets/images/logo/logo-dark.png" class="img-fluid" alt="">
+                                  <img src="{{asset('assets/images/logo/logoknet.png')}}" class="img-fluid" alt="">
                               </a>
                           </div>
 
@@ -47,8 +47,8 @@
                               <div class="header__navigation menu-style-three d-none d-xl-block">
                                   <nav class="navigation-menu">
                                       <ul>
-                                          <li class="has-children">
-                                              <a href="/"><span>Home</span></a>
+                                          <li>
+                                              <a href="{{route('publik')}}"><span>Home</span></a>
                                               {{-- <ul class="submenu">
                                                   <li><a href="index-infotechno.html"><span>Infotechno</span></a></li>
                                                   <li><a href="index-processing.html"><span>Processing</span></a></li>
@@ -58,7 +58,7 @@
                                                   <li><a href="index-cybersecurity.html"><span>Cybersecurity</span></a></li>
                                               </ul> --}}
                                           </li>
-                                          <li class="has-children has-children--multilevel-submenu">
+                                          {{-- <li class="has-children has-children--multilevel-submenu">
                                               <a href="#"><span>Company</span></a>
                                               <ul class="submenu">
                                                   <li class="has-children">
@@ -84,18 +84,17 @@
                                                   <li><a href="careers.html"><span>Careers</span></a></li>
                                                   <li><a href="pricing-plans.html"><span>Pricing plans</span></a></li>
                                               </ul>
-                                          </li>
+                                          </li> --}}
                                           <li class="has-children has-children--multilevel-submenu">
                                               <a href="#"><span>IT solutions</span></a>
                                               <ul class="submenu">
-                                                  <li><a href="it-services.html"><span>IT Services</span></a></li>
-                                                  <li><a href="managed-it-services.html"><span>Managed IT Services</span></a></li>
-                                                  <li><a href="industries.html"><span>Industries</span></a></li>
-                                                  <li><a href="business-solution.html"><span>Business solution</span></a></li>
-                                                  <li><a href="it-services-details.html"><span>IT Services Details</span></a></li>
+                                                  <li><a href="it-services.html"><span>ISP</span></a></li>
+                                                  <li><a href="managed-it-services.html"><span>Datacenter</span></a></li>
+                                                  <li><a href="industries.html"><span>Konsulting IT</span></a></li>
+                                                  <li><a href="business-solution.html"><span>Developer</span></a></li>
                                               </ul>
                                           </li>
-                                          <li class="has-children">
+                                          {{-- <li class="has-children">
                                               <a href="#"><span>Elements</span></a>
                                               <!-- mega menu -->
                                               <ul class="megamenu megamenu--mega">
@@ -148,33 +147,56 @@
                                                       </ul>
                                                   </li>
                                               </ul>
-                                          </li>
+                                          </li> --}}
                                           <li class="has-children has-children--multilevel-submenu">
-                                              <a href="#"><span>Case Studies</span></a>
+                                            <a href="{{route('artikel.index')}}"><span>Artikel</span></a>
                                               <!-- multilevel submenu -->
+                                              <?php
+                                              $ac = \App\Category::all();
+                                              //$aca = array($ac);
+                                              //dd($ac);
+                                              ?>
                                               <ul class="submenu">
-                                                  <li><a href="case-studies.html"><span>Case Studies 01</span></a></li>
-                                                  <li><a href="case-studies-02.html"><span>Case Studies 02</span></a></li>
-                                                  <li><a href="single-smart-vision.html"><span>Single Layout</span></a></li>
+                                                  @foreach ($ac as $item)
+                                                  <li><a href="{{ route('artikel.category',$item->slug)}}"><span>{{$item ->name}}</span></a></li>
+                                                  @endforeach
                                               </ul>
                                           </li>
-                                          <li class="has-children has-children--multilevel-submenu">
-                                              <a href="blog-list-large-image.html"><span>Blog</span></a>
-                                              <!-- multilevel submenu -->
-                                              <ul class="submenu">
-                                                  <li><a href="blog-list-large-image.html"><span>List Large Image</span></a></li>
-                                                  <li><a href="blog-list-left-large-image.html"><span>Left Large Image</span></a></li>
-                                                  <li><a href="blog-grid-classic.html"><span>Grid Classic</span></a></li>
-                                                  <li><a href="blog-grid-masonry.html"><span>Grid Masonry</span></a></li>
-                                                  <li class="has-children">
-                                                      <a href="blog-post-layout-one.html"><span>Single Layouts</span></a>
-                                                      <ul class="submenu">
-                                                          <li><a href="blog-post-layout-one.html"><span>Left Sidebar</span></a></li>
-                                                          <li><a href="blog-post-right-sidebar.html"><span>Right Sidebar</span></a></li>
-                                                          <li><a href="blog-post-no-sidebar.html"><span>No Sidebar</span></a></li>
-                                                      </ul>
-                                                  </li>
-                                              </ul>
+                                          <li>
+                                            <a href="{{route('career')}}"><span>Career</span></a>
+                                            {{-- <ul class="submenu">
+                                                    <li><a href="index-infotechno.html"><span>Infotechno</span></a></li>
+                                                    <li><a href="index-processing.html"><span>Processing</span></a></li>
+                                                    <li><a href="index-appointment.html"><span>Appointment</span></a></li>
+                                                    <li><a href="index-services.html"><span>Services</span></a></li>
+                                                    <li><a href="index-resolutions.html"><span>Resolutions</span></a></li>
+                                                    <li><a href="index-cybersecurity.html"><span>Cybersecurity</span></a></li>
+                                                </ul> --}}
+                                            </li>
+                                            <li>
+                                                <a href="{{route('portofolio')}}"><span>Portofolio</span></a>
+                                                {{-- <ul class="submenu">
+                                                    <li><a href="index-infotechno.html"><span>Infotechno</span></a></li>
+                                                    <li><a href="index-processing.html"><span>Processing</span></a></li>
+                                                    <li><a href="index-appointment.html"><span>Appointment</span></a></li>
+                                                    <li><a href="index-services.html"><span>Services</span></a></li>
+                                                    <li><a href="index-resolutions.html"><span>Resolutions</span></a></li>
+                                                    <li><a href="index-cybersecurity.html"><span>Cybersecurity</span></a></li>
+                                                </ul> --}}
+                                            </li>
+                                            <li>
+                                                <a href="{{route('contact')}}"><span>Contact</span></a>
+                                                {{-- <ul class="submenu">
+                                                    <li><a href="index-infotechno.html"><span>Infotechno</span></a></li>
+                                                    <li><a href="index-processing.html"><span>Processing</span></a></li>
+                                                    <li><a href="index-appointment.html"><span>Appointment</span></a></li>
+                                                    <li><a href="index-services.html"><span>Services</span></a></li>
+                                                    <li><a href="index-resolutions.html"><span>Resolutions</span></a></li>
+                                                    <li><a href="index-cybersecurity.html"><span>Cybersecurity</span></a></li>
+                                                </ul> --}}
+                                            </li>
+                                          <li>
+                                              <a href="{{route('about')}}"><span>About</span></a>
                                           </li>
                                       </ul>
                                   </nav>
