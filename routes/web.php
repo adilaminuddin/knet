@@ -72,7 +72,10 @@ Route::group(['as'=>'pegawai.','prefix'=>'pegawai','namespace'=>'Pegawai','middl
 });
 
 
-
+// View::composer('layouts.frontend.partial.footer',function ($view) {
+//     $categories = App\Category::all();
+//     $view->with('categories',$categories);
+// });
 //admin
 // Route::resource('admin', 'DashboardController');
 // Route::get('admin/dashboard', 'DashboardController@index')->name('dashboard.index');
